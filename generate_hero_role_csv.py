@@ -27,7 +27,7 @@ for hero in hero_data:
 
 logging.info("Creating dataframe and saving as csv")
 df = pd.DataFrame(hero_roles, columns=["hero_id", "role_id"])
-df.to_csv("data/features/hero_vs_roles.csv")
+df.to_csv("data/features/hero_vs_roles.csv", index=False)
 
 
 logging.info("Done")
