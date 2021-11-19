@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.NOTSET)
 
 
 val_cols = [
-    'hero_id', 'base_health_regen', 'base_mana_regen', 
+    'hero_idx', 'hero_id', 'base_health_regen', 'base_mana_regen', 
     'base_armor', 'base_attack_min', 'base_attack_max', 'base_str', 'base_agi', 
     'base_int', 'str_gain', 'agi_gain', 'int_gain', 'attack_range', 'projectile_speed', 
     'attack_rate', 'move_speed', 'legs'
@@ -37,6 +37,7 @@ with open("data/heroes/processed_hero.json", "w") as f:
 
 logging.info("Generating processed_hero.csv")
 df = pd.DataFrame(hero_vals, columns=val_cols)
+df = df[val_cols]
 df.to_csv("data/features/processed_hero.csv", index=False)
 
 logging.info("Done")

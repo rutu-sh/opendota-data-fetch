@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "hero_id": 1,
         "name": "npc_dota_hero_antimage",
         "localized_name": "Anti-Mage",
         "primary_attr": "agi",
@@ -29,10 +30,11 @@
         "attack_rate": 1.4,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 1
+        "hero_idx": 0
     },
     {
         "id": 2,
+        "hero_id": 2,
         "name": "npc_dota_hero_axe",
         "localized_name": "Axe",
         "primary_attr": "str",
@@ -63,10 +65,11 @@
         "attack_rate": 1.7,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 2
+        "hero_idx": 1
     },
     {
         "id": 3,
+        "hero_id": 3,
         "name": "npc_dota_hero_bane",
         "localized_name": "Bane",
         "primary_attr": "int",
@@ -96,10 +99,11 @@
         "attack_rate": 1.7,
         "move_speed": 305,
         "legs": 4,
-        "hero_id": 3
+        "hero_idx": 2
     },
     {
         "id": 4,
+        "hero_id": 4,
         "name": "npc_dota_hero_bloodseeker",
         "localized_name": "Bloodseeker",
         "primary_attr": "agi",
@@ -130,10 +134,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 4
+        "hero_idx": 3
     },
     {
         "id": 5,
+        "hero_id": 5,
         "name": "npc_dota_hero_crystal_maiden",
         "localized_name": "Crystal Maiden",
         "primary_attr": "int",
@@ -163,10 +168,11 @@
         "attack_rate": 1.7,
         "move_speed": 280,
         "legs": 2,
-        "hero_id": 5
+        "hero_idx": 4
     },
     {
         "id": 6,
+        "hero_id": 6,
         "name": "npc_dota_hero_drow_ranger",
         "localized_name": "Drow Ranger",
         "primary_attr": "agi",
@@ -195,10 +201,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 6
+        "hero_idx": 5
     },
     {
         "id": 7,
+        "hero_id": 7,
         "name": "npc_dota_hero_earthshaker",
         "localized_name": "Earthshaker",
         "primary_attr": "str",
@@ -228,10 +235,11 @@
         "attack_rate": 1.7,
         "move_speed": 315,
         "legs": 2,
-        "hero_id": 7
+        "hero_idx": 6
     },
     {
         "id": 8,
+        "hero_id": 8,
         "name": "npc_dota_hero_juggernaut",
         "localized_name": "Juggernaut",
         "primary_attr": "agi",
@@ -260,10 +268,11 @@
         "attack_rate": 1.4,
         "move_speed": 305,
         "legs": 2,
-        "hero_id": 8
+        "hero_idx": 7
     },
     {
         "id": 9,
+        "hero_id": 9,
         "name": "npc_dota_hero_mirana",
         "localized_name": "Mirana",
         "primary_attr": "agi",
@@ -294,10 +303,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 9
+        "hero_idx": 8
     },
     {
         "id": 10,
+        "hero_id": 10,
         "name": "npc_dota_hero_morphling",
         "localized_name": "Morphling",
         "primary_attr": "agi",
@@ -328,10 +338,11 @@
         "attack_rate": 1.5,
         "move_speed": 280,
         "legs": 0,
-        "hero_id": 10
+        "hero_idx": 9
     },
     {
         "id": 11,
+        "hero_id": 11,
         "name": "npc_dota_hero_nevermore",
         "localized_name": "Shadow Fiend",
         "primary_attr": "agi",
@@ -359,10 +370,11 @@
         "attack_rate": 1.6,
         "move_speed": 305,
         "legs": 0,
-        "hero_id": 11
+        "hero_idx": 10
     },
     {
         "id": 12,
+        "hero_id": 12,
         "name": "npc_dota_hero_phantom_lancer",
         "localized_name": "Phantom Lancer",
         "primary_attr": "agi",
@@ -392,10 +404,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 12
+        "hero_idx": 11
     },
     {
         "id": 13,
+        "hero_id": 13,
         "name": "npc_dota_hero_puck",
         "localized_name": "Puck",
         "primary_attr": "int",
@@ -425,10 +438,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 13
+        "hero_idx": 12
     },
     {
         "id": 14,
+        "hero_id": 14,
         "name": "npc_dota_hero_pudge",
         "localized_name": "Pudge",
         "primary_attr": "str",
@@ -458,10 +472,11 @@
         "attack_rate": 1.7,
         "move_speed": 280,
         "legs": 2,
-        "hero_id": 14
+        "hero_idx": 13
     },
     {
         "id": 15,
+        "hero_id": 15,
         "name": "npc_dota_hero_razor",
         "localized_name": "Razor",
         "primary_attr": "agi",
@@ -491,10 +506,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 0,
-        "hero_id": 15
+        "hero_idx": 14
     },
     {
         "id": 16,
+        "hero_id": 16,
         "name": "npc_dota_hero_sand_king",
         "localized_name": "Sand King",
         "primary_attr": "str",
@@ -526,10 +542,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 6,
-        "hero_id": 16
+        "hero_idx": 15
     },
     {
         "id": 17,
+        "hero_id": 17,
         "name": "npc_dota_hero_storm_spirit",
         "localized_name": "Storm Spirit",
         "primary_attr": "int",
@@ -560,10 +577,11 @@
         "attack_rate": 1.7,
         "move_speed": 285,
         "legs": 2,
-        "hero_id": 17
+        "hero_idx": 16
     },
     {
         "id": 18,
+        "hero_id": 18,
         "name": "npc_dota_hero_sven",
         "localized_name": "Sven",
         "primary_attr": "str",
@@ -594,10 +612,11 @@
         "attack_rate": 1.9,
         "move_speed": 325,
         "legs": 2,
-        "hero_id": 18
+        "hero_idx": 17
     },
     {
         "id": 19,
+        "hero_id": 19,
         "name": "npc_dota_hero_tiny",
         "localized_name": "Tiny",
         "primary_attr": "str",
@@ -629,10 +648,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 19
+        "hero_idx": 18
     },
     {
         "id": 20,
+        "hero_id": 20,
         "name": "npc_dota_hero_vengefulspirit",
         "localized_name": "Vengeful Spirit",
         "primary_attr": "agi",
@@ -663,10 +683,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 20
+        "hero_idx": 19
     },
     {
         "id": 21,
+        "hero_id": 21,
         "name": "npc_dota_hero_windrunner",
         "localized_name": "Windranger",
         "primary_attr": "int",
@@ -697,10 +718,11 @@
         "attack_rate": 1.5,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 21
+        "hero_idx": 20
     },
     {
         "id": 22,
+        "hero_id": 22,
         "name": "npc_dota_hero_zuus",
         "localized_name": "Zeus",
         "primary_attr": "int",
@@ -728,10 +750,11 @@
         "attack_rate": 1.7,
         "move_speed": 315,
         "legs": 2,
-        "hero_id": 22
+        "hero_idx": 21
     },
     {
         "id": 23,
+        "hero_id": 23,
         "name": "npc_dota_hero_kunkka",
         "localized_name": "Kunkka",
         "primary_attr": "str",
@@ -763,10 +786,11 @@
         "attack_rate": 1.7,
         "move_speed": 315,
         "legs": 2,
-        "hero_id": 23
+        "hero_idx": 22
     },
     {
         "id": 25,
+        "hero_id": 25,
         "name": "npc_dota_hero_lina",
         "localized_name": "Lina",
         "primary_attr": "int",
@@ -796,10 +820,11 @@
         "attack_rate": 1.6,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 25
+        "hero_idx": 24
     },
     {
         "id": 26,
+        "hero_id": 26,
         "name": "npc_dota_hero_lion",
         "localized_name": "Lion",
         "primary_attr": "int",
@@ -829,10 +854,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 26
+        "hero_idx": 25
     },
     {
         "id": 27,
+        "hero_id": 27,
         "name": "npc_dota_hero_shadow_shaman",
         "localized_name": "Shadow Shaman",
         "primary_attr": "int",
@@ -863,10 +889,11 @@
         "attack_rate": 1.7,
         "move_speed": 285,
         "legs": 2,
-        "hero_id": 27
+        "hero_idx": 26
     },
     {
         "id": 28,
+        "hero_id": 28,
         "name": "npc_dota_hero_slardar",
         "localized_name": "Slardar",
         "primary_attr": "str",
@@ -897,10 +924,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 0,
-        "hero_id": 28
+        "hero_idx": 27
     },
     {
         "id": 29,
+        "hero_id": 29,
         "name": "npc_dota_hero_tidehunter",
         "localized_name": "Tidehunter",
         "primary_attr": "str",
@@ -931,10 +959,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 29
+        "hero_idx": 28
     },
     {
         "id": 30,
+        "hero_id": 30,
         "name": "npc_dota_hero_witch_doctor",
         "localized_name": "Witch Doctor",
         "primary_attr": "int",
@@ -963,10 +992,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 30
+        "hero_idx": 29
     },
     {
         "id": 31,
+        "hero_id": 31,
         "name": "npc_dota_hero_lich",
         "localized_name": "Lich",
         "primary_attr": "int",
@@ -994,10 +1024,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 31
+        "hero_idx": 30
     },
     {
         "id": 32,
+        "hero_id": 32,
         "name": "npc_dota_hero_riki",
         "localized_name": "Riki",
         "primary_attr": "agi",
@@ -1026,10 +1057,11 @@
         "attack_rate": 1.7,
         "move_speed": 320,
         "legs": 2,
-        "hero_id": 32
+        "hero_idx": 31
     },
     {
         "id": 33,
+        "hero_id": 33,
         "name": "npc_dota_hero_enigma",
         "localized_name": "Enigma",
         "primary_attr": "int",
@@ -1059,10 +1091,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 0,
-        "hero_id": 33
+        "hero_idx": 32
     },
     {
         "id": 34,
+        "hero_id": 34,
         "name": "npc_dota_hero_tinker",
         "localized_name": "Tinker",
         "primary_attr": "int",
@@ -1091,10 +1124,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 34
+        "hero_idx": 33
     },
     {
         "id": 35,
+        "hero_id": 35,
         "name": "npc_dota_hero_sniper",
         "localized_name": "Sniper",
         "primary_attr": "agi",
@@ -1122,10 +1156,11 @@
         "attack_rate": 1.7,
         "move_speed": 285,
         "legs": 2,
-        "hero_id": 35
+        "hero_idx": 34
     },
     {
         "id": 36,
+        "hero_id": 36,
         "name": "npc_dota_hero_necrolyte",
         "localized_name": "Necrophos",
         "primary_attr": "int",
@@ -1155,10 +1190,11 @@
         "attack_rate": 1.7,
         "move_speed": 280,
         "legs": 2,
-        "hero_id": 36
+        "hero_idx": 35
     },
     {
         "id": 37,
+        "hero_id": 37,
         "name": "npc_dota_hero_warlock",
         "localized_name": "Warlock",
         "primary_attr": "int",
@@ -1187,10 +1223,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 37
+        "hero_idx": 36
     },
     {
         "id": 38,
+        "hero_id": 38,
         "name": "npc_dota_hero_beastmaster",
         "localized_name": "Beastmaster",
         "primary_attr": "str",
@@ -1220,10 +1257,11 @@
         "attack_rate": 1.7,
         "move_speed": 305,
         "legs": 2,
-        "hero_id": 38
+        "hero_idx": 37
     },
     {
         "id": 39,
+        "hero_id": 39,
         "name": "npc_dota_hero_queenofpain",
         "localized_name": "Queen of Pain",
         "primary_attr": "int",
@@ -1252,10 +1290,11 @@
         "attack_rate": 1.5,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 39
+        "hero_idx": 38
     },
     {
         "id": 40,
+        "hero_id": 40,
         "name": "npc_dota_hero_venomancer",
         "localized_name": "Venomancer",
         "primary_attr": "agi",
@@ -1286,10 +1325,11 @@
         "attack_rate": 1.7,
         "move_speed": 280,
         "legs": 0,
-        "hero_id": 40
+        "hero_idx": 39
     },
     {
         "id": 41,
+        "hero_id": 41,
         "name": "npc_dota_hero_faceless_void",
         "localized_name": "Faceless Void",
         "primary_attr": "agi",
@@ -1320,10 +1360,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 41
+        "hero_idx": 40
     },
     {
         "id": 42,
+        "hero_id": 42,
         "name": "npc_dota_hero_skeleton_king",
         "localized_name": "Wraith King",
         "primary_attr": "str",
@@ -1354,10 +1395,11 @@
         "attack_rate": 1.7,
         "move_speed": 315,
         "legs": 2,
-        "hero_id": 42
+        "hero_idx": 41
     },
     {
         "id": 43,
+        "hero_id": 43,
         "name": "npc_dota_hero_death_prophet",
         "localized_name": "Death Prophet",
         "primary_attr": "int",
@@ -1387,10 +1429,11 @@
         "attack_rate": 1.7,
         "move_speed": 325,
         "legs": 2,
-        "hero_id": 43
+        "hero_idx": 42
     },
     {
         "id": 44,
+        "hero_id": 44,
         "name": "npc_dota_hero_phantom_assassin",
         "localized_name": "Phantom Assassin",
         "primary_attr": "agi",
@@ -1418,10 +1461,11 @@
         "attack_rate": 1.7,
         "move_speed": 305,
         "legs": 2,
-        "hero_id": 44
+        "hero_idx": 43
     },
     {
         "id": 45,
+        "hero_id": 45,
         "name": "npc_dota_hero_pugna",
         "localized_name": "Pugna",
         "primary_attr": "int",
@@ -1449,10 +1493,11 @@
         "attack_rate": 1.7,
         "move_speed": 330,
         "legs": 2,
-        "hero_id": 45
+        "hero_idx": 44
     },
     {
         "id": 46,
+        "hero_id": 46,
         "name": "npc_dota_hero_templar_assassin",
         "localized_name": "Templar Assassin",
         "primary_attr": "agi",
@@ -1480,10 +1525,11 @@
         "attack_rate": 1.7,
         "move_speed": 305,
         "legs": 2,
-        "hero_id": 46
+        "hero_idx": 45
     },
     {
         "id": 47,
+        "hero_id": 47,
         "name": "npc_dota_hero_viper",
         "localized_name": "Viper",
         "primary_attr": "agi",
@@ -1513,10 +1559,11 @@
         "attack_rate": 1.7,
         "move_speed": 275,
         "legs": 0,
-        "hero_id": 47
+        "hero_idx": 46
     },
     {
         "id": 48,
+        "hero_id": 48,
         "name": "npc_dota_hero_luna",
         "localized_name": "Luna",
         "primary_attr": "agi",
@@ -1545,10 +1592,11 @@
         "attack_rate": 1.7,
         "move_speed": 325,
         "legs": 2,
-        "hero_id": 48
+        "hero_idx": 47
     },
     {
         "id": 49,
+        "hero_id": 49,
         "name": "npc_dota_hero_dragon_knight",
         "localized_name": "Dragon Knight",
         "primary_attr": "str",
@@ -1580,10 +1628,11 @@
         "attack_rate": 1.7,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 49
+        "hero_idx": 48
     },
     {
         "id": 50,
+        "hero_id": 50,
         "name": "npc_dota_hero_dazzle",
         "localized_name": "Dazzle",
         "primary_attr": "int",
@@ -1612,10 +1661,11 @@
         "attack_rate": 1.7,
         "move_speed": 305,
         "legs": 2,
-        "hero_id": 50
+        "hero_idx": 49
     },
     {
         "id": 51,
+        "hero_id": 51,
         "name": "npc_dota_hero_rattletrap",
         "localized_name": "Clockwerk",
         "primary_attr": "str",
@@ -1645,10 +1695,11 @@
         "attack_rate": 1.7,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 51
+        "hero_idx": 50
     },
     {
         "id": 52,
+        "hero_id": 52,
         "name": "npc_dota_hero_leshrac",
         "localized_name": "Leshrac",
         "primary_attr": "int",
@@ -1679,10 +1730,11 @@
         "attack_rate": 1.7,
         "move_speed": 325,
         "legs": 4,
-        "hero_id": 52
+        "hero_idx": 51
     },
     {
         "id": 53,
+        "hero_id": 53,
         "name": "npc_dota_hero_furion",
         "localized_name": "Nature's Prophet",
         "primary_attr": "int",
@@ -1713,10 +1765,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 53
+        "hero_idx": 52
     },
     {
         "id": 54,
+        "hero_id": 54,
         "name": "npc_dota_hero_life_stealer",
         "localized_name": "Lifestealer",
         "primary_attr": "str",
@@ -1747,10 +1800,11 @@
         "attack_rate": 1.7,
         "move_speed": 320,
         "legs": 2,
-        "hero_id": 54
+        "hero_idx": 53
     },
     {
         "id": 55,
+        "hero_id": 55,
         "name": "npc_dota_hero_dark_seer",
         "localized_name": "Dark Seer",
         "primary_attr": "int",
@@ -1780,10 +1834,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 55
+        "hero_idx": 54
     },
     {
         "id": 56,
+        "hero_id": 56,
         "name": "npc_dota_hero_clinkz",
         "localized_name": "Clinkz",
         "primary_attr": "agi",
@@ -1812,10 +1867,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 56
+        "hero_idx": 55
     },
     {
         "id": 57,
+        "hero_id": 57,
         "name": "npc_dota_hero_omniknight",
         "localized_name": "Omniknight",
         "primary_attr": "str",
@@ -1844,10 +1900,11 @@
         "attack_rate": 1.7,
         "move_speed": 315,
         "legs": 2,
-        "hero_id": 57
+        "hero_idx": 56
     },
     {
         "id": 58,
+        "hero_id": 58,
         "name": "npc_dota_hero_enchantress",
         "localized_name": "Enchantress",
         "primary_attr": "int",
@@ -1878,10 +1935,11 @@
         "attack_rate": 1.7,
         "move_speed": 320,
         "legs": 4,
-        "hero_id": 58
+        "hero_idx": 57
     },
     {
         "id": 59,
+        "hero_id": 59,
         "name": "npc_dota_hero_huskar",
         "localized_name": "Huskar",
         "primary_attr": "str",
@@ -1910,10 +1968,11 @@
         "attack_rate": 1.6,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 59
+        "hero_idx": 58
     },
     {
         "id": 60,
+        "hero_id": 60,
         "name": "npc_dota_hero_night_stalker",
         "localized_name": "Night Stalker",
         "primary_attr": "str",
@@ -1944,10 +2003,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 60
+        "hero_idx": 59
     },
     {
         "id": 61,
+        "hero_id": 61,
         "name": "npc_dota_hero_broodmother",
         "localized_name": "Broodmother",
         "primary_attr": "agi",
@@ -1977,10 +2037,11 @@
         "attack_rate": 1.7,
         "move_speed": 280,
         "legs": 8,
-        "hero_id": 61
+        "hero_idx": 60
     },
     {
         "id": 62,
+        "hero_id": 62,
         "name": "npc_dota_hero_bounty_hunter",
         "localized_name": "Bounty Hunter",
         "primary_attr": "agi",
@@ -2008,10 +2069,11 @@
         "attack_rate": 1.7,
         "move_speed": 320,
         "legs": 2,
-        "hero_id": 62
+        "hero_idx": 61
     },
     {
         "id": 63,
+        "hero_id": 63,
         "name": "npc_dota_hero_weaver",
         "localized_name": "Weaver",
         "primary_attr": "agi",
@@ -2039,10 +2101,11 @@
         "attack_rate": 1.8,
         "move_speed": 275,
         "legs": 4,
-        "hero_id": 63
+        "hero_idx": 62
     },
     {
         "id": 64,
+        "hero_id": 64,
         "name": "npc_dota_hero_jakiro",
         "localized_name": "Jakiro",
         "primary_attr": "int",
@@ -2072,10 +2135,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 64
+        "hero_idx": 63
     },
     {
         "id": 65,
+        "hero_id": 65,
         "name": "npc_dota_hero_batrider",
         "localized_name": "Batrider",
         "primary_attr": "int",
@@ -2105,10 +2169,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 65
+        "hero_idx": 64
     },
     {
         "id": 66,
+        "hero_id": 66,
         "name": "npc_dota_hero_chen",
         "localized_name": "Chen",
         "primary_attr": "int",
@@ -2137,10 +2202,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 66
+        "hero_idx": 65
     },
     {
         "id": 67,
+        "hero_id": 67,
         "name": "npc_dota_hero_spectre",
         "localized_name": "Spectre",
         "primary_attr": "agi",
@@ -2169,10 +2235,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 0,
-        "hero_id": 67
+        "hero_idx": 66
     },
     {
         "id": 68,
+        "hero_id": 68,
         "name": "npc_dota_hero_ancient_apparition",
         "localized_name": "Ancient Apparition",
         "primary_attr": "int",
@@ -2201,10 +2268,11 @@
         "attack_rate": 1.7,
         "move_speed": 285,
         "legs": 0,
-        "hero_id": 68
+        "hero_idx": 67
     },
     {
         "id": 69,
+        "hero_id": 69,
         "name": "npc_dota_hero_doom_bringer",
         "localized_name": "Doom",
         "primary_attr": "str",
@@ -2235,10 +2303,11 @@
         "attack_rate": 1.9,
         "move_speed": 285,
         "legs": 2,
-        "hero_id": 69
+        "hero_idx": 68
     },
     {
         "id": 70,
+        "hero_id": 70,
         "name": "npc_dota_hero_ursa",
         "localized_name": "Ursa",
         "primary_attr": "agi",
@@ -2268,10 +2337,11 @@
         "attack_rate": 1.7,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 70
+        "hero_idx": 69
     },
     {
         "id": 71,
+        "hero_id": 71,
         "name": "npc_dota_hero_spirit_breaker",
         "localized_name": "Spirit Breaker",
         "primary_attr": "str",
@@ -2302,10 +2372,11 @@
         "attack_rate": 1.9,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 71
+        "hero_idx": 70
     },
     {
         "id": 72,
+        "hero_id": 72,
         "name": "npc_dota_hero_gyrocopter",
         "localized_name": "Gyrocopter",
         "primary_attr": "agi",
@@ -2334,10 +2405,11 @@
         "attack_rate": 1.7,
         "move_speed": 315,
         "legs": 2,
-        "hero_id": 72
+        "hero_idx": 71
     },
     {
         "id": 73,
+        "hero_id": 73,
         "name": "npc_dota_hero_alchemist",
         "localized_name": "Alchemist",
         "primary_attr": "str",
@@ -2369,10 +2441,11 @@
         "attack_rate": 1.7,
         "move_speed": 305,
         "legs": 2,
-        "hero_id": 73
+        "hero_idx": 72
     },
     {
         "id": 74,
+        "hero_id": 74,
         "name": "npc_dota_hero_invoker",
         "localized_name": "Invoker",
         "primary_attr": "int",
@@ -2403,10 +2476,11 @@
         "attack_rate": 1.7,
         "move_speed": 275,
         "legs": 2,
-        "hero_id": 74
+        "hero_idx": 73
     },
     {
         "id": 75,
+        "hero_id": 75,
         "name": "npc_dota_hero_silencer",
         "localized_name": "Silencer",
         "primary_attr": "int",
@@ -2437,10 +2511,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 75
+        "hero_idx": 74
     },
     {
         "id": 76,
+        "hero_id": 76,
         "name": "npc_dota_hero_obsidian_destroyer",
         "localized_name": "Outworld Devourer",
         "primary_attr": "int",
@@ -2469,10 +2544,11 @@
         "attack_rate": 1.9,
         "move_speed": 320,
         "legs": 4,
-        "hero_id": 76
+        "hero_idx": 75
     },
     {
         "id": 77,
+        "hero_id": 77,
         "name": "npc_dota_hero_lycan",
         "localized_name": "Lycan",
         "primary_attr": "str",
@@ -2503,10 +2579,11 @@
         "attack_rate": 1.7,
         "move_speed": 315,
         "legs": 2,
-        "hero_id": 77
+        "hero_idx": 76
     },
     {
         "id": 78,
+        "hero_id": 78,
         "name": "npc_dota_hero_brewmaster",
         "localized_name": "Brewmaster",
         "primary_attr": "str",
@@ -2537,10 +2614,11 @@
         "attack_rate": 1.7,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 78
+        "hero_idx": 77
     },
     {
         "id": 79,
+        "hero_id": 79,
         "name": "npc_dota_hero_shadow_demon",
         "localized_name": "Shadow Demon",
         "primary_attr": "int",
@@ -2570,10 +2648,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 79
+        "hero_idx": 78
     },
     {
         "id": 80,
+        "hero_id": 80,
         "name": "npc_dota_hero_lone_druid",
         "localized_name": "Lone Druid",
         "primary_attr": "agi",
@@ -2603,10 +2682,11 @@
         "attack_rate": 1.6,
         "move_speed": 325,
         "legs": 2,
-        "hero_id": 80
+        "hero_idx": 79
     },
     {
         "id": 81,
+        "hero_id": 81,
         "name": "npc_dota_hero_chaos_knight",
         "localized_name": "Chaos Knight",
         "primary_attr": "str",
@@ -2637,10 +2717,11 @@
         "attack_rate": 1.7,
         "move_speed": 325,
         "legs": 2,
-        "hero_id": 81
+        "hero_idx": 80
     },
     {
         "id": 82,
+        "hero_id": 82,
         "name": "npc_dota_hero_meepo",
         "localized_name": "Meepo",
         "primary_attr": "agi",
@@ -2672,10 +2753,11 @@
         "attack_rate": 1.7,
         "move_speed": 330,
         "legs": 2,
-        "hero_id": 82
+        "hero_idx": 81
     },
     {
         "id": 83,
+        "hero_id": 83,
         "name": "npc_dota_hero_treant",
         "localized_name": "Treant Protector",
         "primary_attr": "str",
@@ -2706,10 +2788,11 @@
         "attack_rate": 1.9,
         "move_speed": 285,
         "legs": 2,
-        "hero_id": 83
+        "hero_idx": 82
     },
     {
         "id": 84,
+        "hero_id": 84,
         "name": "npc_dota_hero_ogre_magi",
         "localized_name": "Ogre Magi",
         "primary_attr": "int",
@@ -2740,10 +2823,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 84
+        "hero_idx": 83
     },
     {
         "id": 85,
+        "hero_id": 85,
         "name": "npc_dota_hero_undying",
         "localized_name": "Undying",
         "primary_attr": "str",
@@ -2773,10 +2857,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 85
+        "hero_idx": 84
     },
     {
         "id": 86,
+        "hero_id": 86,
         "name": "npc_dota_hero_rubick",
         "localized_name": "Rubick",
         "primary_attr": "int",
@@ -2805,10 +2890,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 86
+        "hero_idx": 85
     },
     {
         "id": 87,
+        "hero_id": 87,
         "name": "npc_dota_hero_disruptor",
         "localized_name": "Disruptor",
         "primary_attr": "int",
@@ -2838,10 +2924,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 87
+        "hero_idx": 86
     },
     {
         "id": 88,
+        "hero_id": 88,
         "name": "npc_dota_hero_nyx_assassin",
         "localized_name": "Nyx Assassin",
         "primary_attr": "agi",
@@ -2871,10 +2958,11 @@
         "attack_rate": 1.7,
         "move_speed": 310,
         "legs": 6,
-        "hero_id": 88
+        "hero_idx": 87
     },
     {
         "id": 89,
+        "hero_id": 89,
         "name": "npc_dota_hero_naga_siren",
         "localized_name": "Naga Siren",
         "primary_attr": "agi",
@@ -2906,10 +2994,11 @@
         "attack_rate": 1.7,
         "move_speed": 330,
         "legs": 0,
-        "hero_id": 89
+        "hero_idx": 88
     },
     {
         "id": 90,
+        "hero_id": 90,
         "name": "npc_dota_hero_keeper_of_the_light",
         "localized_name": "Keeper of the Light",
         "primary_attr": "int",
@@ -2939,10 +3028,11 @@
         "attack_rate": 1.7,
         "move_speed": 330,
         "legs": 2,
-        "hero_id": 90
+        "hero_idx": 89
     },
     {
         "id": 91,
+        "hero_id": 91,
         "name": "npc_dota_hero_wisp",
         "localized_name": "Io",
         "primary_attr": "str",
@@ -2971,10 +3061,11 @@
         "attack_rate": 1.7,
         "move_speed": 320,
         "legs": 0,
-        "hero_id": 91
+        "hero_idx": 90
     },
     {
         "id": 92,
+        "hero_id": 92,
         "name": "npc_dota_hero_visage",
         "localized_name": "Visage",
         "primary_attr": "int",
@@ -3005,10 +3096,11 @@
         "attack_rate": 1.7,
         "move_speed": 285,
         "legs": 2,
-        "hero_id": 92
+        "hero_idx": 91
     },
     {
         "id": 93,
+        "hero_id": 93,
         "name": "npc_dota_hero_slark",
         "localized_name": "Slark",
         "primary_attr": "agi",
@@ -3038,10 +3130,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 93
+        "hero_idx": 92
     },
     {
         "id": 94,
+        "hero_id": 94,
         "name": "npc_dota_hero_medusa",
         "localized_name": "Medusa",
         "primary_attr": "agi",
@@ -3070,10 +3163,11 @@
         "attack_rate": 1.7,
         "move_speed": 275,
         "legs": 0,
-        "hero_id": 94
+        "hero_idx": 93
     },
     {
         "id": 95,
+        "hero_id": 95,
         "name": "npc_dota_hero_troll_warlord",
         "localized_name": "Troll Warlord",
         "primary_attr": "agi",
@@ -3103,10 +3197,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 95
+        "hero_idx": 94
     },
     {
         "id": 96,
+        "hero_id": 96,
         "name": "npc_dota_hero_centaur",
         "localized_name": "Centaur Warrunner",
         "primary_attr": "str",
@@ -3137,10 +3232,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 4,
-        "hero_id": 96
+        "hero_idx": 95
     },
     {
         "id": 97,
+        "hero_id": 97,
         "name": "npc_dota_hero_magnataur",
         "localized_name": "Magnus",
         "primary_attr": "str",
@@ -3170,10 +3266,11 @@
         "attack_rate": 1.8,
         "move_speed": 305,
         "legs": 4,
-        "hero_id": 97
+        "hero_idx": 96
     },
     {
         "id": 98,
+        "hero_id": 98,
         "name": "npc_dota_hero_shredder",
         "localized_name": "Timbersaw",
         "primary_attr": "str",
@@ -3202,10 +3299,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 98
+        "hero_idx": 97
     },
     {
         "id": 99,
+        "hero_id": 99,
         "name": "npc_dota_hero_bristleback",
         "localized_name": "Bristleback",
         "primary_attr": "str",
@@ -3235,10 +3333,11 @@
         "attack_rate": 1.8,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 99
+        "hero_idx": 98
     },
     {
         "id": 100,
+        "hero_id": 100,
         "name": "npc_dota_hero_tusk",
         "localized_name": "Tusk",
         "primary_attr": "str",
@@ -3267,10 +3366,11 @@
         "attack_rate": 1.7,
         "move_speed": 315,
         "legs": 2,
-        "hero_id": 100
+        "hero_idx": 99
     },
     {
         "id": 101,
+        "hero_id": 101,
         "name": "npc_dota_hero_skywrath_mage",
         "localized_name": "Skywrath Mage",
         "primary_attr": "int",
@@ -3299,10 +3399,11 @@
         "attack_rate": 1.7,
         "move_speed": 325,
         "legs": 2,
-        "hero_id": 101
+        "hero_idx": 100
     },
     {
         "id": 102,
+        "hero_id": 102,
         "name": "npc_dota_hero_abaddon",
         "localized_name": "Abaddon",
         "primary_attr": "str",
@@ -3331,10 +3432,11 @@
         "attack_rate": 1.7,
         "move_speed": 325,
         "legs": 2,
-        "hero_id": 102
+        "hero_idx": 101
     },
     {
         "id": 103,
+        "hero_id": 103,
         "name": "npc_dota_hero_elder_titan",
         "localized_name": "Elder Titan",
         "primary_attr": "str",
@@ -3364,10 +3466,11 @@
         "attack_rate": 1.7,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 103
+        "hero_idx": 102
     },
     {
         "id": 104,
+        "hero_id": 104,
         "name": "npc_dota_hero_legion_commander",
         "localized_name": "Legion Commander",
         "primary_attr": "str",
@@ -3398,10 +3501,11 @@
         "attack_rate": 1.7,
         "move_speed": 330,
         "legs": 2,
-        "hero_id": 104
+        "hero_idx": 103
     },
     {
         "id": 105,
+        "hero_id": 105,
         "name": "npc_dota_hero_techies",
         "localized_name": "Techies",
         "primary_attr": "int",
@@ -3429,10 +3533,11 @@
         "attack_rate": 1.7,
         "move_speed": 320,
         "legs": 6,
-        "hero_id": 105
+        "hero_idx": 104
     },
     {
         "id": 106,
+        "hero_id": 106,
         "name": "npc_dota_hero_ember_spirit",
         "localized_name": "Ember Spirit",
         "primary_attr": "agi",
@@ -3463,10 +3568,11 @@
         "attack_rate": 1.7,
         "move_speed": 305,
         "legs": 2,
-        "hero_id": 106
+        "hero_idx": 105
     },
     {
         "id": 107,
+        "hero_id": 107,
         "name": "npc_dota_hero_earth_spirit",
         "localized_name": "Earth Spirit",
         "primary_attr": "str",
@@ -3497,10 +3603,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 107
+        "hero_idx": 106
     },
     {
         "id": 108,
+        "hero_id": 108,
         "name": "npc_dota_hero_abyssal_underlord",
         "localized_name": "Underlord",
         "primary_attr": "str",
@@ -3531,10 +3638,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 108
+        "hero_idx": 107
     },
     {
         "id": 109,
+        "hero_id": 109,
         "name": "npc_dota_hero_terrorblade",
         "localized_name": "Terrorblade",
         "primary_attr": "agi",
@@ -3563,10 +3671,11 @@
         "attack_rate": 1.5,
         "move_speed": 315,
         "legs": 2,
-        "hero_id": 109
+        "hero_idx": 108
     },
     {
         "id": 110,
+        "hero_id": 110,
         "name": "npc_dota_hero_phoenix",
         "localized_name": "Phoenix",
         "primary_attr": "str",
@@ -3597,10 +3706,11 @@
         "attack_rate": 1.7,
         "move_speed": 280,
         "legs": 2,
-        "hero_id": 110
+        "hero_idx": 109
     },
     {
         "id": 111,
+        "hero_id": 111,
         "name": "npc_dota_hero_oracle",
         "localized_name": "Oracle",
         "primary_attr": "int",
@@ -3630,10 +3740,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 0,
-        "hero_id": 111
+        "hero_idx": 110
     },
     {
         "id": 112,
+        "hero_id": 112,
         "name": "npc_dota_hero_winter_wyvern",
         "localized_name": "Winter Wyvern",
         "primary_attr": "int",
@@ -3662,10 +3773,11 @@
         "attack_rate": 1.7,
         "move_speed": 285,
         "legs": 2,
-        "hero_id": 112
+        "hero_idx": 111
     },
     {
         "id": 113,
+        "hero_id": 113,
         "name": "npc_dota_hero_arc_warden",
         "localized_name": "Arc Warden",
         "primary_attr": "agi",
@@ -3694,10 +3806,11 @@
         "attack_rate": 1.7,
         "move_speed": 285,
         "legs": 2,
-        "hero_id": 113
+        "hero_idx": 112
     },
     {
         "id": 114,
+        "hero_id": 114,
         "name": "npc_dota_hero_monkey_king",
         "localized_name": "Monkey King",
         "primary_attr": "agi",
@@ -3727,10 +3840,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 114
+        "hero_idx": 113
     },
     {
         "id": 119,
+        "hero_id": 119,
         "name": "npc_dota_hero_dark_willow",
         "localized_name": "Dark Willow",
         "primary_attr": "int",
@@ -3760,10 +3874,11 @@
         "attack_rate": 1.5,
         "move_speed": 290,
         "legs": 2,
-        "hero_id": 119
+        "hero_idx": 118
     },
     {
         "id": 120,
+        "hero_id": 120,
         "name": "npc_dota_hero_pangolier",
         "localized_name": "Pangolier",
         "primary_attr": "agi",
@@ -3795,10 +3910,11 @@
         "attack_rate": 1.7,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 120
+        "hero_idx": 119
     },
     {
         "id": 121,
+        "hero_id": 121,
         "name": "npc_dota_hero_grimstroke",
         "localized_name": "Grimstroke",
         "primary_attr": "int",
@@ -3828,10 +3944,11 @@
         "attack_rate": 1.7,
         "move_speed": 290,
         "legs": 0,
-        "hero_id": 121
+        "hero_idx": 120
     },
     {
         "id": 123,
+        "hero_id": 123,
         "name": "npc_dota_hero_hoodwink",
         "localized_name": "Hoodwink",
         "primary_attr": "agi",
@@ -3861,10 +3978,11 @@
         "attack_rate": 2,
         "move_speed": 310,
         "legs": 4,
-        "hero_id": 123
+        "hero_idx": 122
     },
     {
         "id": 126,
+        "hero_id": 126,
         "name": "npc_dota_hero_void_spirit",
         "localized_name": "Void Spirit",
         "primary_attr": "int",
@@ -3894,10 +4012,11 @@
         "attack_rate": 1.7,
         "move_speed": 295,
         "legs": 2,
-        "hero_id": 126
+        "hero_idx": 125
     },
     {
         "id": 128,
+        "hero_id": 128,
         "name": "npc_dota_hero_snapfire",
         "localized_name": "Snapfire",
         "primary_attr": "str",
@@ -3927,10 +4046,11 @@
         "attack_rate": 1.6,
         "move_speed": 300,
         "legs": 2,
-        "hero_id": 128
+        "hero_idx": 127
     },
     {
         "id": 129,
+        "hero_id": 129,
         "name": "npc_dota_hero_mars",
         "localized_name": "Mars",
         "primary_attr": "str",
@@ -3960,10 +4080,11 @@
         "attack_rate": 1.8,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 129
+        "hero_idx": 128
     },
     {
         "id": 135,
+        "hero_id": 135,
         "name": "npc_dota_hero_dawnbreaker",
         "localized_name": "Dawnbreaker",
         "primary_attr": "str",
@@ -3991,10 +4112,11 @@
         "attack_rate": 1.7,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 135
+        "hero_idx": 134
     },
     {
         "id": 136,
+        "hero_id": 136,
         "name": "npc_dota_hero_marci",
         "localized_name": "Marci",
         "primary_attr": "str",
@@ -4025,6 +4147,6 @@
         "attack_rate": 1.7,
         "move_speed": 310,
         "legs": 2,
-        "hero_id": 136
+        "hero_idx": 135
     }
 ]

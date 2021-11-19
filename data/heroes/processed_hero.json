@@ -1,5 +1,6 @@
 [
     {
+        "hero_idx": 0,
         "hero_id": 1,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -20,6 +21,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 1,
         "hero_id": 2,
         "base_health_regen": 2.75,
         "base_mana_regen": 0,
@@ -40,6 +42,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 2,
         "hero_id": 3,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -60,6 +63,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 3,
         "hero_id": 4,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -80,6 +84,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 4,
         "hero_id": 5,
         "base_health_regen": 0.25,
         "base_mana_regen": 1,
@@ -100,6 +105,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 5,
         "hero_id": 6,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -120,6 +126,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 6,
         "hero_id": 7,
         "base_health_regen": 1,
         "base_mana_regen": 0,
@@ -140,6 +147,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 7,
         "hero_id": 8,
         "base_health_regen": 0.5,
         "base_mana_regen": 0,
@@ -160,6 +168,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 8,
         "hero_id": 9,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.4,
@@ -180,6 +189,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 9,
         "hero_id": 10,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -200,6 +210,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 10,
         "hero_id": 11,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.3,
@@ -220,6 +231,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 11,
         "hero_id": 12,
         "base_health_regen": 1.5,
         "base_mana_regen": 0,
@@ -240,6 +252,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 12,
         "hero_id": 13,
         "base_health_regen": 0.5,
         "base_mana_regen": 0,
@@ -260,6 +273,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 13,
         "hero_id": 14,
         "base_health_regen": 2,
         "base_mana_regen": 0,
@@ -280,6 +294,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 14,
         "hero_id": 15,
         "base_health_regen": 1,
         "base_mana_regen": 0,
@@ -300,6 +315,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 15,
         "hero_id": 16,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -320,6 +336,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 16,
         "hero_id": 17,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -340,6 +357,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 17,
         "hero_id": 18,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -360,6 +378,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 18,
         "hero_id": 19,
         "base_health_regen": 1.5,
         "base_mana_regen": 0,
@@ -380,6 +399,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 19,
         "hero_id": 20,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -400,6 +420,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 20,
         "hero_id": 21,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -420,6 +441,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 21,
         "hero_id": 22,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -440,6 +462,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 22,
         "hero_id": 23,
         "base_health_regen": 0.75,
         "base_mana_regen": 0,
@@ -460,6 +483,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 24,
         "hero_id": 25,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -480,6 +504,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 25,
         "hero_id": 26,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -500,6 +525,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 26,
         "hero_id": 27,
         "base_health_regen": 1,
         "base_mana_regen": 0,
@@ -520,6 +546,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 27,
         "hero_id": 28,
         "base_health_regen": 0.5,
         "base_mana_regen": 0,
@@ -540,6 +567,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 28,
         "hero_id": 29,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
@@ -560,6 +588,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 29,
         "hero_id": 30,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -580,6 +609,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 30,
         "hero_id": 31,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.75,
@@ -600,6 +630,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 31,
         "hero_id": 32,
         "base_health_regen": 2.5,
         "base_mana_regen": 0,
@@ -620,6 +651,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 32,
         "hero_id": 33,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -640,6 +672,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 33,
         "hero_id": 34,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.75,
@@ -660,6 +693,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 34,
         "hero_id": 35,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -680,6 +714,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 35,
         "hero_id": 36,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -700,6 +735,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 36,
         "hero_id": 37,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -720,6 +756,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 37,
         "hero_id": 38,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -740,6 +777,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 38,
         "hero_id": 39,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -760,6 +798,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 39,
         "hero_id": 40,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -780,6 +819,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 40,
         "hero_id": 41,
         "base_health_regen": 0.5,
         "base_mana_regen": 0,
@@ -800,6 +840,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 41,
         "hero_id": 42,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -820,6 +861,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 42,
         "hero_id": 43,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
@@ -840,6 +882,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 43,
         "hero_id": 44,
         "base_health_regen": 0.75,
         "base_mana_regen": 0,
@@ -860,6 +903,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 44,
         "hero_id": 45,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
@@ -880,6 +924,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 45,
         "hero_id": 46,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -900,6 +945,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 46,
         "hero_id": 47,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -920,6 +966,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 47,
         "hero_id": 48,
         "base_health_regen": 0.5,
         "base_mana_regen": 0,
@@ -940,6 +987,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 48,
         "hero_id": 49,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -960,6 +1008,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 49,
         "hero_id": 50,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -980,6 +1029,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 50,
         "hero_id": 51,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1000,6 +1050,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 51,
         "hero_id": 52,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1020,6 +1071,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 52,
         "hero_id": 53,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.75,
@@ -1040,6 +1092,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 53,
         "hero_id": 54,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1060,6 +1113,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 54,
         "hero_id": 55,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1080,6 +1134,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 55,
         "hero_id": 56,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1100,6 +1155,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 56,
         "hero_id": 57,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1120,6 +1176,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 57,
         "hero_id": 58,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1140,6 +1197,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 58,
         "hero_id": 59,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1160,6 +1218,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 59,
         "hero_id": 60,
         "base_health_regen": 2,
         "base_mana_regen": 0,
@@ -1180,6 +1239,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 60,
         "hero_id": 61,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1200,6 +1260,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 61,
         "hero_id": 62,
         "base_health_regen": 1.25,
         "base_mana_regen": 0.5,
@@ -1220,6 +1281,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 62,
         "hero_id": 63,
         "base_health_regen": 1.25,
         "base_mana_regen": 0.5,
@@ -1240,6 +1302,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 63,
         "hero_id": 64,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1260,6 +1323,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 64,
         "hero_id": 65,
         "base_health_regen": 1.75,
         "base_mana_regen": 0,
@@ -1280,6 +1344,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 65,
         "hero_id": 66,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
@@ -1300,6 +1365,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 66,
         "hero_id": 67,
         "base_health_regen": 1.5,
         "base_mana_regen": 0,
@@ -1320,6 +1386,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 67,
         "hero_id": 68,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1340,6 +1407,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 68,
         "hero_id": 69,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1360,6 +1428,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 69,
         "hero_id": 70,
         "base_health_regen": 0.5,
         "base_mana_regen": 0,
@@ -1380,6 +1449,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 70,
         "hero_id": 71,
         "base_health_regen": 1.25,
         "base_mana_regen": 0,
@@ -1400,6 +1470,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 71,
         "hero_id": 72,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1420,6 +1491,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 72,
         "hero_id": 73,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1440,6 +1512,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 73,
         "hero_id": 74,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1460,6 +1533,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 74,
         "hero_id": 75,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1480,6 +1554,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 75,
         "hero_id": 76,
         "base_health_regen": 1,
         "base_mana_regen": 0,
@@ -1500,6 +1575,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 76,
         "hero_id": 77,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1520,6 +1596,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 77,
         "hero_id": 78,
         "base_health_regen": 0.5,
         "base_mana_regen": 0,
@@ -1540,6 +1617,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 78,
         "hero_id": 79,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1560,6 +1638,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 79,
         "hero_id": 80,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1580,6 +1659,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 80,
         "hero_id": 81,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1600,6 +1680,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 81,
         "hero_id": 82,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1620,6 +1701,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 82,
         "hero_id": 83,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
@@ -1640,6 +1722,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 83,
         "hero_id": 84,
         "base_health_regen": 3.25,
         "base_mana_regen": 0,
@@ -1660,6 +1743,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 84,
         "hero_id": 85,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.25,
@@ -1680,6 +1764,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 85,
         "hero_id": 86,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
@@ -1700,6 +1785,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 86,
         "hero_id": 87,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1720,6 +1806,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 87,
         "hero_id": 88,
         "base_health_regen": 2,
         "base_mana_regen": 0,
@@ -1740,6 +1827,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 88,
         "hero_id": 89,
         "base_health_regen": 1.5,
         "base_mana_regen": 0,
@@ -1760,6 +1848,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 89,
         "hero_id": 90,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1780,6 +1869,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 90,
         "hero_id": 91,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1800,6 +1890,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 91,
         "hero_id": 92,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1820,6 +1911,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 92,
         "hero_id": 93,
         "base_health_regen": 1.75,
         "base_mana_regen": 0,
@@ -1840,6 +1932,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 93,
         "hero_id": 94,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1860,6 +1953,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 94,
         "hero_id": 95,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1880,6 +1974,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 95,
         "hero_id": 96,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -1900,6 +1995,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 96,
         "hero_id": 97,
         "base_health_regen": 0.5,
         "base_mana_regen": 0,
@@ -1920,6 +2016,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 97,
         "hero_id": 98,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
@@ -1940,6 +2037,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 98,
         "hero_id": 99,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.25,
@@ -1960,6 +2058,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 99,
         "hero_id": 100,
         "base_health_regen": 0.75,
         "base_mana_regen": 0,
@@ -1980,6 +2079,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 100,
         "hero_id": 101,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2000,6 +2100,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 101,
         "hero_id": 102,
         "base_health_regen": 1,
         "base_mana_regen": 0,
@@ -2020,6 +2121,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 102,
         "hero_id": 103,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2040,6 +2142,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 103,
         "hero_id": 104,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2060,6 +2163,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 104,
         "hero_id": 105,
         "base_health_regen": 0.25,
         "base_mana_regen": 1,
@@ -2080,6 +2184,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 105,
         "hero_id": 106,
         "base_health_regen": 0.75,
         "base_mana_regen": 0,
@@ -2100,6 +2205,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 106,
         "hero_id": 107,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2120,6 +2226,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 107,
         "hero_id": 108,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2140,6 +2247,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 108,
         "hero_id": 109,
         "base_health_regen": 1,
         "base_mana_regen": 0,
@@ -2160,6 +2268,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 109,
         "hero_id": 110,
         "base_health_regen": 1,
         "base_mana_regen": 0,
@@ -2180,6 +2289,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 110,
         "hero_id": 111,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
@@ -2200,6 +2310,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 111,
         "hero_id": 112,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2220,6 +2331,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 112,
         "hero_id": 113,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2240,6 +2352,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 113,
         "hero_id": 114,
         "base_health_regen": 1,
         "base_mana_regen": 0,
@@ -2260,6 +2373,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 118,
         "hero_id": 119,
         "base_health_regen": 0.5,
         "base_mana_regen": 0,
@@ -2280,6 +2394,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 119,
         "hero_id": 120,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2300,6 +2415,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 120,
         "hero_id": 121,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2320,6 +2436,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 122,
         "hero_id": 123,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2340,6 +2457,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 125,
         "hero_id": 126,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.6,
@@ -2360,6 +2478,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 127,
         "hero_id": 128,
         "base_health_regen": 0.75,
         "base_mana_regen": 0,
@@ -2380,6 +2499,7 @@
         "attack_type": 0
     },
     {
+        "hero_idx": 128,
         "hero_id": 129,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
@@ -2400,6 +2520,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 134,
         "hero_id": 135,
         "base_health_regen": 0.25,
         "base_mana_regen": 0,
@@ -2420,6 +2541,7 @@
         "attack_type": 1
     },
     {
+        "hero_idx": 135,
         "hero_id": 136,
         "base_health_regen": 0.25,
         "base_mana_regen": 0.5,
