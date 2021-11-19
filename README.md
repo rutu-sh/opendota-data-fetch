@@ -2,7 +2,6 @@
 repo for fetching and processing data from opendota 
 
 # Usage
-Clone this repo and do the following: 
 ## Install required libraries
 ```
 make setup
