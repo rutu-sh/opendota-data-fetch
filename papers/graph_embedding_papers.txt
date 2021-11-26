@@ -1,0 +1,59 @@
+
+
+1. SHNE: Semanticaware Heterogeneous Network Embedding model.
+        
+        Link:   http://www.shichuan.org/hin/topic/2019.SHNE-%20Representation%20Learning%20for%20Semantic-Associated%20Heterogeneous%20Networks.pdf
+        TLDR:   Representation learning in heterogeneous networks faces challenges due to heterogeneous structural information of multiple types of 
+                nodes and relations, and also due to the unstructured attribute or content (e.д.,text) associated with some types of nodes. 
+                While many recent works have studied homogeneous, heterogeneous, and attributed networks embedding, there are few works that have 
+                collectively solved these challenges in heterogeneous networks. In this paper, we address them by developing a Semanticaware Heterogeneous 
+                Network Embedding model (SHNE).SHNE performs joint optimization of heterogeneous SkipGram and deep semantic encoding for capturing both 
+                heterogeneous structural closeness and unstructured semantic relations among all nodes, as function of node content, that exist in the network.
+                Extensive experiments demonstrate that SHNE outperforms state-of-the-art baselines in various heterogeneous network mining tasks, such as link 
+                prediction, document retrieval, node recommendation, relevance search, and class visualization.
+                In the paper: (RQ1-3), (RQ2), (RQ3)
+        git:    https://github.com/chuxuzhang/WSDM2019_SHNE
+        METHODS: node2vec, metapath2vec, SHNE, Deepwalk, LINE
+
+ 
+2. HGNN: Heterogeneous Graph Neural Network
+
+        Link:   https://sci-hub.se/https://doi.org/10.1145/3292500.3330961
+        TLDR:   Representation learning in heterogeneous graphs aims to pursue a meaningful vector representation for each node so as to facilitate downstream 
+                applications such as link prediction, personalized recommendation, node classification, etc. text or image) associated with each node.
+                Despite a substantial amount of effort has been made to homogeneous (or heterogeneous) graph embedding, attributed graph embedding as well as 
+                graph neural networks, few of them can jointly consider heterogeneous structural (graph) information as well as heterogeneous contents 
+                information of each node effectively. In this paper, we propose HetGNN, a heterogeneous graph neural network model, to resolve this issue. 
+                Next, we design a neural network architecture with two modules to aggregate feature information of those sampled neighboring nodes. The first 
+                module encodes “deep” feature interactions of heterogeneous contents and generates content embedding for each node.
+                
+                Check table-1 in the paper. 
+        git:    https://github.com/chuxuzhang/KDD2019_HetGNN
+        METHODS: metapath2vec, ASNE, SHNE, GraphSAGE, GAT, HGNN 
+
+3. TaPEm: Task-Guided Pair Embedding in Heterogeneous Network ( may not be  relevant )
+
+        Link:   https://arxiv.org/pdf/1906.01546.pdf
+        TLDR:   Many real-world tasks solved by heterogeneous network embedding methods can be cast as modeling the likelihood of a pairwise relationship 
+                between two nodes. For example, the goal of author identification task is to model the likelihood of a paper being written by an author 
+                (paper–author pairwise relationship). However, we claim that for task-guided embeddings, it is crucial to focus on directly modeling the 
+                pairwise relationship.To this end, we 1) propose to learn a pair embedding under the guidance of its associated context path, i.e., a sequence 
+                of nodes between the pair, and 2) devise the pair validity classifier to distinguish whether the pair is valid with respect to the specific 
+                task at hand. Extensive experiments on author identification task demonstrate that TaPEm outperforms the state-of-the-art methods, especially 
+                for authors with few publication records.
+        git:    https://github.com/pcy1302/TapEM
+        METHODS: metapath2vec++, HNE, Camel
+
+4. GATNE: Representation Learning for Attributed Multiplex Heterogeneous Network
+
+        Link:   https://arxiv.org/pdf/1905.01669.pdf
+        TLDR:   Network embedding (or graph embedding) has been widely used in many real-world applications. However, existing methods mainly focus on 
+                networks with single-typed nodes/edges and cannot scale well to handle large networks. The framework supports both transductive and inductive 
+                learning. We also give the theoretical analysis of the proposed framework, showing its connection with previous works and proving its better 
+                expressiveness. We conduct systematical evaluations for the proposed framework on four different genres of challenging datasets: Amazon, 
+                YouTube, Twitter, and Alibaba1 .
+        git:    https://github.com/THUDM/GATNE
+        METHODS: Deepwalk, LINE, node2vec, metapath2vec, HRec
+
+
+
