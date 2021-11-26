@@ -55,5 +55,8 @@
         git:    https://github.com/THUDM/GATNE
         METHODS: Deepwalk, LINE, node2vec, metapath2vec, HRec
 
-
-
+5. AsPEM:       LINE, DeepWalk
+6. HEER:        Metapath2vec++, AsPEM, LINE
+7. BHIN2Vec:    Deepwalk, LINE, HIN2Vec, JUST
+8. HIN2Vec:     Deepwalk, LINE, node2vec, HINE, ESim
+9. MAGNN:       LINE, node2vec, ESim, metapath2vec, GCN, GAT, GATNE
