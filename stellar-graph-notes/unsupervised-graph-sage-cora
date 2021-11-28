@@ -1,0 +1,33 @@
+Source: https://stellargraph.readthedocs.io/en/stable/demos/embeddings/graphsage-unsupervised-sampler-embeddings.html
+
+Unsupervised GraphSAGE Model:
+    1. Objective: Given a graph, learn embeddings of the nodes using only the graph structure and the node features, 
+    without using any known node class labels
+    2. Model: In the Unsupervised GraphSAGE model, node embeddings are learnt by solving a simple classification task; 
+    given a large set of "positive" (target, context) node pairs generated from random walks performed on the graph 
+    (i.e., node pairs that co-occur within a certain context window in random walks), and an equally large set of "negative" 
+    node pairs that are randomly selected from the graph according to a certain distribution, learn a binary classifier that 
+    predicts whether arbitrary node pairs are likely to co-occur in a random walk performed on the graph. 
+    ( How this is done will be described later )
+    3. Inductive Mapping: learns an inductive mapping from attributes of nodes and their neighbors to node embeddings in a 
+    high-dimensional vector space, which preserves structural and feature similarities of the nodes. Since this mapping is 
+    inductive, the mappings for new nodes can be generated without the need for re-training (unlike node2vec)
+    4. Architecture: Feed equal number of "positive" and "negative" (target, context) node-pairs and generate node-embeddings. 
+    These embeddings are passed through binary classifier which predicts binary label for node pair.
+    5. Training: binary-cross-entropy with SGD. 
+    6. Embeddings: Embeddings obtained from encoder can be used for different downstream tasks.
+
+
+Unsupervised GraphSAGE with on demand Sampling:
+    1. UnsupervisedSampler: Takes Stellargraph graph instance and uses UniformRandomWalk to generate the above mentioned 
+    "positive" and "negative" pairs. Takes "number_of_walks" and "length" of walks as param. 
+    2. Node-Pair-Generator: maps pairs of nodes to input of GraphSAGE; batches and stuff.
+
+Models:
+    Model-1:  Uses GraphSAGE to learn embeddings
+    Model-2: Take layers from above Model-1 to create a new model that will only generate embeddings. 
+
+
+Embeddings:
+    1. Use Model-2 to generate embeddings for all nodes.
+    2. Cora, for example, can be bought down to node-embedding of 50 and sent to downstream tasks. 
