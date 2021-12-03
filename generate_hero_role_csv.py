@@ -23,10 +23,11 @@ hero_roles = []
 logging.info("Generating hero vs roles data")
 for hero in hero_data:
     for role in hero["roles"]:
-        hero_roles.append( (hero["hero_idx"], roles_data[role.lower()]) )
+        hero_roles.append( (hero["name"], role.lower()) )
 
 logging.info("Creating dataframe and saving as csv")
-df = pd.DataFrame(hero_roles, columns=["hero_idx", "role_id"])
+# df = pd.DataFrame(hero_roles, columns=["hero_idx", "role_id"])
+df = pd.DataFrame(hero_roles, columns=["source", "target"])
 df.to_csv("data/features/hero_vs_roles.csv", index=False)
 
 

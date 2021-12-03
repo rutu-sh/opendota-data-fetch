@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.NOTSET)
 
 
 val_cols = [
-    'hero_idx', 'hero_id', 'base_health_regen', 'base_mana_regen', 
+    'name', 'base_health_regen', 'base_mana_regen', 
     'base_armor', 'base_attack_min', 'base_attack_max', 'base_str', 'base_agi', 
     'base_int', 'str_gain', 'agi_gain', 'int_gain', 'attack_range', 'projectile_speed', 
     'attack_rate', 'move_speed', 'legs'

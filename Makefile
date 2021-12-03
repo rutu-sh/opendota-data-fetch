@@ -15,6 +15,9 @@ fetch-data:
 	@echo "\nGenerating roles data"
 	python3 generate_roles_data.py
 
+	@echo "\nGenerating roles csv"
+	python3 generate_roles_csv.py
+
 	@echo "\nGenerating heroes csv"
 	python3 generate_hero_csv.py
 
