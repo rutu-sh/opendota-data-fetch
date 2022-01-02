@@ -32,6 +32,7 @@ constant:  https://api.opendota.com/api/constants/{resource}
 
 PLAYER DATA
 
+TODO: consider game mode also? 
 
 list [ProPlayers]:  https://api.opendota.com/api/proPlayers 
 
@@ -48,5 +49,7 @@ count [win, lose]: https://api.opendota.com/api/players/88470/wl?significant=1
 [radiant_games, radiant_win, radiant_lose]: https://api.opendota.com/api/players/88470/counts?significant=1
 [dire_games, dire_win, dire_lose]: https://api.opendota.com/api/players/88470/counts?significant=1
 
+[kda]: https://api.opendota.com/api/players/88470/totals?significant=1
 
-
+averages: [avg_kills, avg_deaths, avg_assists, avg_kda, avg_tower_damage, avg_hero_damage, 
+avg_hero_healing, avg_stuns, avg_tower_kills, avg_neutral_kills, avg_courier_kills]
