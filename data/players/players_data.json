@@ -1,6 +1,6 @@
 [
     {
-        "account_id": 88470,
+        "account_id": "88470",
         "solo_competitive_rank": 7618,
         "rank_tier": 80,
         "mmr_estimate": 7004,
@@ -28,7 +28,7 @@
         "lane_role_4_lose": 6
     },
     {
-        "account_id": 639740,
+        "account_id": "639740",
         "solo_competitive_rank": null,
         "rank_tier": 45,
         "mmr_estimate": 3176,
@@ -56,7 +56,7 @@
         "lane_role_4_lose": 4
     },
     {
-        "account_id": 1296625,
+        "account_id": "1296625",
         "solo_competitive_rank": 6935,
         "rank_tier": 80,
         "mmr_estimate": 5365,
@@ -84,7 +84,7 @@
         "lane_role_4_lose": 43
     },
     {
-        "account_id": 1400303,
+        "account_id": "1400303",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 5862,
@@ -112,7 +112,7 @@
         "lane_role_4_lose": 0
     },
     {
-        "account_id": 1470116,
+        "account_id": "1470116",
         "solo_competitive_rank": null,
         "rank_tier": 43,
         "mmr_estimate": 3326,
@@ -140,7 +140,7 @@
         "lane_role_4_lose": 0
     },
     {
-        "account_id": 3916428,
+        "account_id": "3916428",
         "solo_competitive_rank": 7470,
         "rank_tier": 80,
         "mmr_estimate": 7275,
@@ -168,7 +168,7 @@
         "lane_role_4_lose": 16
     },
     {
-        "account_id": 3940262,
+        "account_id": "3940262",
         "solo_competitive_rank": 6290,
         "rank_tier": 80,
         "mmr_estimate": 7358,
@@ -196,7 +196,7 @@
         "lane_role_4_lose": 28
     },
     {
-        "account_id": 4281729,
+        "account_id": "4281729",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 5544,
@@ -224,7 +224,7 @@
         "lane_role_4_lose": 63
     },
     {
-        "account_id": 5150808,
+        "account_id": "5150808",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 7361,
@@ -252,7 +252,7 @@
         "lane_role_4_lose": 0
     },
     {
-        "account_id": 6103402,
+        "account_id": "6103402",
         "solo_competitive_rank": 6187,
         "rank_tier": 80,
         "mmr_estimate": 6505,
@@ -280,7 +280,7 @@
         "lane_role_4_lose": 16
     },
     {
-        "account_id": 6199147,
+        "account_id": "6199147",
         "solo_competitive_rank": 7042,
         "rank_tier": 80,
         "mmr_estimate": 5353,
@@ -308,7 +308,7 @@
         "lane_role_4_lose": 59
     },
     {
-        "account_id": 6922000,
+        "account_id": "6922000",
         "solo_competitive_rank": 7600,
         "rank_tier": 80,
         "mmr_estimate": 7430,
@@ -336,7 +336,7 @@
         "lane_role_4_lose": 18
     },
     {
-        "account_id": 7910302,
+        "account_id": "7910302",
         "solo_competitive_rank": 6766,
         "rank_tier": 80,
         "mmr_estimate": 5890,
@@ -364,7 +364,7 @@
         "lane_role_4_lose": 35
     },
     {
-        "account_id": 8591574,
+        "account_id": "8591574",
         "solo_competitive_rank": 6179,
         "rank_tier": 80,
         "mmr_estimate": 5176,
@@ -392,7 +392,7 @@
         "lane_role_4_lose": 38
     },
     {
-        "account_id": 8712306,
+        "account_id": "8712306",
         "solo_competitive_rank": 8078,
         "rank_tier": 80,
         "mmr_estimate": 6426,
@@ -420,7 +420,7 @@
         "lane_role_4_lose": 24
     },
     {
-        "account_id": 8817047,
+        "account_id": "8817047",
         "solo_competitive_rank": 3867,
         "rank_tier": 71,
         "mmr_estimate": 3849,
@@ -448,7 +448,7 @@
         "lane_role_4_lose": 21
     },
     {
-        "account_id": 9403474,
+        "account_id": "9403474",
         "solo_competitive_rank": 7868,
         "rank_tier": 80,
         "mmr_estimate": 7003,
@@ -476,7 +476,7 @@
         "lane_role_4_lose": 57
     },
     {
-        "account_id": 10366616,
+        "account_id": "10366616",
         "solo_competitive_rank": 8944,
         "rank_tier": 80,
         "mmr_estimate": 7675,
@@ -504,7 +504,7 @@
         "lane_role_4_lose": 28
     },
     {
-        "account_id": 10511872,
+        "account_id": "10511872",
         "solo_competitive_rank": null,
         "rank_tier": 75,
         "mmr_estimate": 5862,
@@ -532,7 +532,7 @@
         "lane_role_4_lose": 0
     },
     {
-        "account_id": 10516239,
+        "account_id": "10516239",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 4509,
@@ -560,7 +560,7 @@
         "lane_role_4_lose": 4
     },
     {
-        "account_id": 11550182,
+        "account_id": "11550182",
         "solo_competitive_rank": 7827,
         "rank_tier": 80,
         "mmr_estimate": 6709,
@@ -588,7 +588,7 @@
         "lane_role_4_lose": 51
     },
     {
-        "account_id": 11865327,
+        "account_id": "11865327",
         "solo_competitive_rank": 7713,
         "rank_tier": 80,
         "mmr_estimate": 6416,
@@ -616,7 +616,7 @@
         "lane_role_4_lose": 6
     },
     {
-        "account_id": 12231202,
+        "account_id": "12231202",
         "solo_competitive_rank": 9402,
         "rank_tier": 80,
         "mmr_estimate": 7842,
@@ -644,7 +644,7 @@
         "lane_role_4_lose": 2
     },
     {
-        "account_id": 12335314,
+        "account_id": "12335314",
         "solo_competitive_rank": 3998,
         "rank_tier": 80,
         "mmr_estimate": 4015,
@@ -672,7 +672,7 @@
         "lane_role_4_lose": 17
     },
     {
-        "account_id": 12391689,
+        "account_id": "12391689",
         "solo_competitive_rank": 6826,
         "rank_tier": 80,
         "mmr_estimate": 6024,
@@ -700,7 +700,7 @@
         "lane_role_4_lose": 48
     },
     {
-        "account_id": 12692042,
+        "account_id": "12692042",
         "solo_competitive_rank": 5404,
         "rank_tier": 80,
         "mmr_estimate": 5872,
@@ -728,7 +728,7 @@
         "lane_role_4_lose": 18
     },
     {
-        "account_id": 14067214,
+        "account_id": "14067214",
         "solo_competitive_rank": 6010,
         "rank_tier": 80,
         "mmr_estimate": 6240,
@@ -756,7 +756,7 @@
         "lane_role_4_lose": 8
     },
     {
-        "account_id": 15272141,
+        "account_id": "15272141",
         "solo_competitive_rank": 6871,
         "rank_tier": null,
         "mmr_estimate": 5762,
@@ -784,7 +784,7 @@
         "lane_role_4_lose": 28
     },
     {
-        "account_id": 16317795,
+        "account_id": "16317795",
         "solo_competitive_rank": 5807,
         "rank_tier": 80,
         "mmr_estimate": 5037,
@@ -812,7 +812,7 @@
         "lane_role_4_lose": 17
     },
     {
-        "account_id": 16446200,
+        "account_id": "16446200",
         "solo_competitive_rank": 5642,
         "rank_tier": 80,
         "mmr_estimate": 5906,
@@ -840,7 +840,7 @@
         "lane_role_4_lose": 16
     },
     {
-        "account_id": 16497807,
+        "account_id": "16497807",
         "solo_competitive_rank": 5912,
         "rank_tier": 80,
         "mmr_estimate": 6149,
@@ -868,7 +868,7 @@
         "lane_role_4_lose": 14
     },
     {
-        "account_id": 16769223,
+        "account_id": "16769223",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 5361,
@@ -896,7 +896,7 @@
         "lane_role_4_lose": 15
     },
     {
-        "account_id": 16795361,
+        "account_id": "16795361",
         "solo_competitive_rank": 5834,
         "rank_tier": 80,
         "mmr_estimate": 5446,
@@ -924,7 +924,7 @@
         "lane_role_4_lose": 27
     },
     {
-        "account_id": 18180970,
+        "account_id": "18180970",
         "solo_competitive_rank": 6648,
         "rank_tier": 80,
         "mmr_estimate": 6140,
@@ -952,7 +952,7 @@
         "lane_role_4_lose": 59
     },
     {
-        "account_id": 18565955,
+        "account_id": "18565955",
         "solo_competitive_rank": 5101,
         "rank_tier": 80,
         "mmr_estimate": 4770,
@@ -980,7 +980,7 @@
         "lane_role_4_lose": 38
     },
     {
-        "account_id": 19195168,
+        "account_id": "19195168",
         "solo_competitive_rank": 6434,
         "rank_tier": 80,
         "mmr_estimate": 5435,
@@ -1008,7 +1008,7 @@
         "lane_role_4_lose": 33
     },
     {
-        "account_id": 19672354,
+        "account_id": "19672354",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 7918,
@@ -1036,7 +1036,7 @@
         "lane_role_4_lose": 10
     },
     {
-        "account_id": 20321748,
+        "account_id": "20321748",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 6292,
@@ -1064,7 +1064,7 @@
         "lane_role_4_lose": 56
     },
     {
-        "account_id": 20356581,
+        "account_id": "20356581",
         "solo_competitive_rank": 6641,
         "rank_tier": 80,
         "mmr_estimate": 5023,
@@ -1092,7 +1092,7 @@
         "lane_role_4_lose": 26
     },
     {
-        "account_id": 20603135,
+        "account_id": "20603135",
         "solo_competitive_rank": 6762,
         "rank_tier": 80,
         "mmr_estimate": 5681,
@@ -1120,7 +1120,7 @@
         "lane_role_4_lose": 33
     },
     {
-        "account_id": 20652618,
+        "account_id": "20652618",
         "solo_competitive_rank": 5324,
         "rank_tier": 80,
         "mmr_estimate": 4788,
@@ -1148,7 +1148,7 @@
         "lane_role_4_lose": 12
     },
     {
-        "account_id": 21270361,
+        "account_id": "21270361",
         "solo_competitive_rank": 6215,
         "rank_tier": 80,
         "mmr_estimate": 6518,
@@ -1176,7 +1176,7 @@
         "lane_role_4_lose": 25
     },
     {
-        "account_id": 21289303,
+        "account_id": "21289303",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 6519,
@@ -1204,7 +1204,7 @@
         "lane_role_4_lose": 4
     },
     {
-        "account_id": 21487219,
+        "account_id": "21487219",
         "solo_competitive_rank": 3261,
         "rank_tier": 42,
         "mmr_estimate": 3045,
@@ -1232,7 +1232,7 @@
         "lane_role_4_lose": 9
     },
     {
-        "account_id": 21604967,
+        "account_id": "21604967",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 5206,
@@ -1260,7 +1260,7 @@
         "lane_role_4_lose": 29
     },
     {
-        "account_id": 23589642,
+        "account_id": "23589642",
         "solo_competitive_rank": 6761,
         "rank_tier": 80,
         "mmr_estimate": 5625,
@@ -1288,7 +1288,7 @@
         "lane_role_4_lose": 78
     },
     {
-        "account_id": 23883296,
+        "account_id": "23883296",
         "solo_competitive_rank": 7004,
         "rank_tier": 80,
         "mmr_estimate": 5792,
@@ -1316,7 +1316,7 @@
         "lane_role_4_lose": 24
     },
     {
-        "account_id": 23900288,
+        "account_id": "23900288",
         "solo_competitive_rank": 5309,
         "rank_tier": 80,
         "mmr_estimate": 5081,
@@ -1344,7 +1344,7 @@
         "lane_role_4_lose": 7
     },
     {
-        "account_id": 24009418,
+        "account_id": "24009418",
         "solo_competitive_rank": 8424,
         "rank_tier": 80,
         "mmr_estimate": 7202,
@@ -1372,7 +1372,7 @@
         "lane_role_4_lose": 36
     },
     {
-        "account_id": 24935423,
+        "account_id": "24935423",
         "solo_competitive_rank": null,
         "rank_tier": 80,
         "mmr_estimate": 4792,

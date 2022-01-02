@@ -1,10 +1,8 @@
+import time
 import json
 import argparse
-from re import match
 import requests
 from typing import List
-
-from requests.models import Response
 from jsonpath_ng import jsonpath, parse
 
 
@@ -26,7 +24,7 @@ def get_json_file_path():
     return "data/players/players_data.json"
 
 
-def parse_dict(exp: str, data: dict):
+def parse_dict(exp: str, data: dict) -> list:
     jsonpath_exp = parse(exp)
     return [match.value for match in jsonpath_exp.find(data)]
 
@@ -82,14 +80,14 @@ def get_counts(account_id: str) -> dict:
     for i in range(0, 5, 1):
         lri = f"lane_role_{i}" # lane role i
         player_counts_data[f"{lri}_games"] = parse_data(f"$.lane_role.\'{i}\'.games", counts_data, 0)
-        player_counts_data[f"{lri}_win"] = parse_data(f"$.lane_role.\'{i}\'.win", counts_data, 0) 
-        player_counts_data[f"{lri}_loss"] = player_counts_data[f"{lri}_games"] - player_counts_data[f"{lri}_wins"]
+        player_counts_data[f"{lri}_wins"] = parse_data(f"$.lane_role.\'{i}\'.win", counts_data, 0) 
+        player_counts_data[f"{lri}_lose"] = player_counts_data[f"{lri}_games"] - player_counts_data[f"{lri}_wins"]
     
     return player_counts_data
 
 
 def get_player_data(account_id: str) -> dict:
-    player_data = {"account_id": account_id}
+    player_data = {"account_id": str(account_id)}
     profile_data = get_profile_data(account_id=account_id)
     counts_data = get_counts(account_id=account_id)
     player_data.update(profile_data)
@@ -102,6 +100,7 @@ def get_pro_players_data(n_players: int = -1):
     player_ids = get_player_ids(get_pro_players(limit=n_players))
     for account_id in player_ids:
         pro_players_data.append(get_player_data(account_id=account_id))
+        time.sleep(2) # prevent too many calls in a min
     return pro_players_data
 
 
