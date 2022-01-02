@@ -1,0 +1,52 @@
+CONSTANTS:
+
+[
+  "abilities",
+  "ability_ids",
+  "aghs_desc",
+  "ancients",
+  "chat_wheel",
+  "cluster",
+  "countries",
+  "game_mode",
+  "hero_abilities",
+  "hero_lore",
+  "hero_names",
+  "heroes",
+  "item_colors",
+  "item_ids",
+  "items",
+  "lobby_type",
+  "neutral_abilities",
+  "order_types",
+  "patch",
+  "patchnotes",
+  "permanent_buffs",
+  "player_colors",
+  "region",
+  "skillshots",
+  "xp_level"
+]
+
+constant:  https://api.opendota.com/api/constants/{resource} 
+
+PLAYER DATA
+
+
+list [ProPlayers]:  https://api.opendota.com/api/proPlayers 
+
+count [win, lose]: https://api.opendota.com/api/players/88470/wl?significant=1
+
+[rank_tier, solo_competitive_rank, leaderboard_rank, mmr_estimate/estimate ]: https://api.opendota.com/api/players/88470
+
+[radiant_win, radiant_lose]: https://api.opendota.com/api/players/88470/wl?significant=1&is_radiant=1
+
+[dire_win, dire_lose]: https://api.opendota.com/api/players/88470/wl?significant=1&is_radiant=0
+
+(0<= n <= 4) [lane_role_{n}_games, lane_role_{n}_win, lane_role_{n}_lose]: https://api.opendota.com/api/players/88470/counts?significant=1
+
+[radiant_games, radiant_win, radiant_lose]: https://api.opendota.com/api/players/88470/counts?significant=1
+[dire_games, dire_win, dire_lose]: https://api.opendota.com/api/players/88470/counts?significant=1
+
+
+
