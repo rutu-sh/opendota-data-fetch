@@ -51,5 +51,125 @@ count [win, lose]: https://api.opendota.com/api/players/88470/wl?significant=1
 
 [kda]: https://api.opendota.com/api/players/88470/totals?significant=1
 
-averages: [avg_kills, avg_deaths, avg_assists, avg_kda, avg_tower_damage, avg_hero_damage, 
-avg_hero_healing, avg_stuns, avg_tower_kills, avg_neutral_kills, avg_courier_kills]
+averages: 
+[
+  avg_kills, 
+  avg_deaths, 
+  avg_assists, 
+  avg_kda, 
+  avg_tower_damage, 
+  avg_hero_damage, 
+  avg_hero_healing, 
+  avg_stuns, 
+  avg_tower_kills, 
+  avg_neutral_kills, 
+  avg_courier_kills,
+
+  avg_last_hits,
+  avg_denies
+  ]
+
+
+  {
+        'kills': '$[?field="kills"]',
+        'deaths': '$[?field="deaths"]',
+        'assists': '$[?field="assists"]',
+        'kda': '$[?field="kda"]',
+        'tower_damage': '$[?field="tower_damage"]',
+        'hero_damage': '$[?field="hero_damage"]',
+        'hero_healing': '$[?field="hero_healing"]',
+        'stuns': '$[?field="stuns"]',
+        'tower_kills': '$[?field="tower_kills"]',
+        'neutral_kills': '$[?field="neutral_kills"]',
+        'courier_kills': '$[?field="courier_kills"]'
+    }
+
+player_counts_data = {
+        
+  'radiant_games': parse_data("$.is_radiant.\'1\'.games", counts_data, 0),
+  'radiant_wins': parse_data("$.is_radiant.\'1\'.win", counts_data, 0),
+  'dire_games': parse_data("$.is_radiant.\'0\'.games", counts_data, 0),
+  'dire_wins': parse_data("$.is_radiant.\'0\'.win", counts_data, 0),
+}
+
+min_games = 100
+
+
+PLAYER-HERO-EDGE:
+
+[win, lose]:  https://api.opendota.com/api/players/{account_id}/wl?significant=1&hero_id={hero_id}
+[]
+
+game_mode = 1
+{
+        "account_id": "88470",
+        "mmr_estimate": 7004,
+        "lane_role_0_games": 4920,
+        "lane_role_0_wins": 2689,
+        "lane_role_0_loss": 2231,
+        "lane_role_1_games": 873,
+        "lane_role_1_wins": 451,
+        "lane_role_1_loss": 422,
+        "lane_role_2_games": 448,
+        "lane_role_2_wins": 217,
+        "lane_role_2_loss": 231,
+        "lane_role_3_games": 3928,
+        "lane_role_3_wins": 1958,
+        "lane_role_3_loss": 1970,
+        "lane_role_4_games": 9,
+        "lane_role_4_wins": 3,
+        "lane_role_4_loss": 6,
+        "avg_kills": 7.339,
+        "avg_deaths": 5.898,
+        "avg_assists": 12.365,
+        "avg_kda": 3.554,
+        "avg_tower_damage": 1883.64,
+        "avg_hero_damage": 18969.141,
+        "avg_hero_healing": 568.56,
+        "avg_stuns": 33.757,
+        "avg_tower_kills": 0.897,
+        "avg_neutral_kills": 41.746,
+        "avg_courier_kills": 0.153,
+
+        "win_rate": [rad_wins + dire_wins] / [rad_games + dire_games]
+    },
+
+
+
+
+PLAYER-HERO: everything for particular hero
+[win_with/against, games_with/against, games, win]: https://api.opendota.com/api/players/88470/heroes
+[avg_kills/assists/deaths/kda]: https://api.opendota.com/api/players/%7Baccount_id%7D/totals?significant=1&hero_id=69
+
+
+
+HERO:
+
+    {
+        "name": "npc_dota_hero_antimage",
+        "base_health_regen": 0.25,
+        "base_mana_regen": 0,
+        "base_armor": 0,
+        "base_attack_min": 29,
+        "base_attack_max": 33,
+        "base_str": 23,
+        "base_agi": 24,
+        "base_int": 12,
+        "str_gain": 1.6,
+        "agi_gain": 2.8,
+        "int_gain": 1.8,
+        "attack_range": 150,
+        "projectile_speed": 0,
+        "attack_rate": 1.4,
+        "move_speed": 310
+}
+
+
+
+
+GRAPH:
+
+PLAYER1 -> HERO1 -> ROLE1
+       -> HERO1 -> ROLE2
+       -> HERO1 -> ROLE3
+       -> HERO2 -> ROLE1
