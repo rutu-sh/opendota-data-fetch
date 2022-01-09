@@ -189,10 +189,13 @@ def get_pro_players_data(n_players: int = -1):
     pro_players_data = []
     player_ids = get_player_ids(get_pro_players(limit=n_players))
     for account_id in player_ids:
-        player_data = get_player_data(account_id=account_id)
+        try:
+            player_data = get_player_data(account_id=account_id)
 
-        pro_players_data.append(player_data)
-        time.sleep(2) # prevent too many calls in a min
+            pro_players_data.append(player_data)
+            time.sleep(2) # prevent too many calls in a min
+        except:
+            continue
     logging.info("Fetched pro players data")
     return pro_players_data
 
@@ -216,4 +219,4 @@ if __name__ == "__main__":
     logging.info("Writing to file")
     with open(args["output_path"][0], "w") as f:
         json.dump(players_data, f, indent=4)
-    logging.log("Done")
+    logging.info("Done")
