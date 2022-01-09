@@ -1,27 +1,36 @@
+SOURCE_DIR=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
+VERSION=v2
+
+test:
+	echo 
 setup:
+	@echo ${SOURCE_DIR}
 	@echo installing requirements
-	pip3 install -r requirements.txt
+	pip3 install -r ${SOURCE_DIR}/requirements.txt
 
-fetch-data:
+create-dirs:
 	@echo "\ncreating required directories"
-	mkdir -p data
-	mkdir -p data/features
-	mkdir -p data/heroes
-	mkdir -p data/roles
+	mkdir -p ${SOURCE_DIR}/data
+	mkdir -p ${SOURCE_DIR}/data/heroes
+	mkdir -p ${SOURCE_DIR}/data/players
+	@echo "\nCreated required directories"
 
+fetch-hero-data:
 	@echo "\nFetching hero stats"
-	python3 fetch_hero_stats.py
+	python3 ${SOURCE_DIR}/${VERSION}/feature-fetch/fetch_hero_features.py  --output-path ${SOURCE_DIR}/data/heroes/hero_data.json
+	@echo "\nFetched hero stats"
 
-	@echo "\nGenerating roles data"
-	python3 generate_roles_data.py
+fetch-player-data:
+	@echo "\nFetch players data"
+	python3 ${SOURCE_DIR}/${VERSION}/feature-fetch/fetch_player_features.py  --output-path ${SOURCE_DIR}/data/players/player_data.json --n-players 5
+	@echo "\nFetched players data"
 
-	@echo "\nGenerating roles csv"
-	python3 generate_roles_csv.py
+fetch-all-data:
 
-	@echo "\nGenerating heroes csv"
-	python3 generate_hero_csv.py
+	@echo "\nFetching all data"
 
-	@echo "\nGenerating hero-role-csv"
-	python3 generate_hero_role_csv.py
+	$(MAKE) create-dirs
+	$(MAKE) fetch-hero-data
+	$(MAKE) fetch-player-data
 
-	@echo "\nFinished make fetch-data"
+	@echo "\nFinished fetching all data"

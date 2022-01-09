@@ -1,0 +1,89 @@
+game_mode=1, significant=1
+
+embedding-generation: https://stellargraph.readthedocs.io/en/stable/demos/embeddings/graphsage-unsupervised-sampler-embeddings.html
+
+NODES:
+
+
+        hero [
+                "name",
+                "base_health_regen",
+                "base_mana_regen",
+                "base_armor",
+                "base_attack_min",
+                "base_attack_max",
+                "base_str",
+                "base_agi",
+                "base_int",
+                "str_gain",
+                "agi_gain",
+                "int_gain",
+                "attack_range",
+                "projectile_speed",
+                "attack_rate",
+                "move_speed"
+        ]
+
+
+        player [
+                "account_id",
+                "mmr_estimate",
+                "lane_role_0_games",
+                "lane_role_0_wins",
+                "lane_role_0_loss",
+                "lane_role_1_games",
+                "lane_role_1_wins",
+                "lane_role_1_loss",
+                "lane_role_2_games",
+                "lane_role_2_wins",
+                "lane_role_2_loss",
+                "lane_role_3_games",
+                "lane_role_3_wins",
+                "lane_role_3_loss",
+                "lane_role_4_games",
+                "lane_role_4_wins",
+                "lane_role_4_loss",
+                "avg_kills",
+                "avg_deaths",
+                "avg_assists",
+                "avg_kda",
+                "avg_tower_damage",
+                "avg_hero_damage",
+                "avg_hero_healing",
+                "avg_stuns",
+                "avg_tower_kills",
+                "avg_neutral_kills",
+                "avg_courier_kills",
+                "avg_denies",
+                "avg_last_hits",
+                "win_rate": [rad_wins + dire_wins] / [rad_games + dire_games],
+        ]
+
+EDGES:
+
+        player-hero [
+                "win_with",  # wins with hero in player's team
+                "win_against", # wins with hero in opposite team
+                "games_with", # games with hero in player's team
+                "games_against", # games with hero in opposite team
+                "games", # games with played using hero
+                "win", # wins with played using hero
+                "avg_kills",
+                "avg_assists",
+                "avg_deaths",
+                "avg_kda"
+        ]
+
+
+LABELS:
+        hero-role (one-hot-encoded) [
+                "carry", 
+                "nuker", 
+                "initiator", 
+                "disabler", 
+                "durable", 
+                "escape", 
+                "support", 
+                "pusher", 
+                "jungler"
+        ]
