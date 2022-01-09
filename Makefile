@@ -1,8 +1,6 @@
 SOURCE_DIR=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 VERSION=v2
 
-test:
-	echo 
 setup:
 	@echo ${SOURCE_DIR}
 	@echo installing requirements
