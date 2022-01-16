@@ -56,6 +56,7 @@ fetch-all-data:
 	$(MAKE) fetch-hero-data
 	$(MAKE) fetch-hero-metadata
 	$(MAKE) fetch-player-data
-	${MAKE} fetch-hero-role-data
+	$(MAKE) fetch-hero-role-data
+	$(MAKE) fetch-player-hero-data
 
 	@echo "\nFinished fetching all data"
