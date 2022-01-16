@@ -105,3 +105,13 @@ generate-player-hero-edge-features:
 	python3 ${FEATURE_GEN}/generate_player_hero_features.py --heroes-data-json ${HERO_JSON_PATH} --player-hero-data-json ${PLAYER_HERO_JSON_PATH} --output-path ${PLAYER_HERO_EDGE_PATH}
 	@echo "\nGenerated hero-role edge features"
 
+generate-all-features:
+	@echo "\nGenerating all-features data"
+
+	$(MAKE) generate-role-features
+	$(MAKE) generate-hero-features
+	$(MAKE) generate-player-features
+	$(MAKE) generate-hero-role-edge-features
+	$(MAKE) generate-player-hero-edge-features
+
+	@echo "\nGenerated all-features data"

@@ -12,6 +12,16 @@ make setup
 make create-dirs
 ```
 
+## Fetch all data
+```
+make fetch-all-data
+```
+
+## Generate all features
+```
+make generate-all-features
+```
+
 ## Fetch hero data
 ```
 make fetch-hero-data
@@ -37,7 +47,39 @@ make fetch-hero-metadata
 make fetch-hero-role-data
 ```
 
-## Fetch and process all data
+## Generate role features
 ```
-make fetch-all-data
+make generate-role-features
 ```
+
+## Generate hero features
+```
+make generate-hero-features
+```
+
+## Generate player features
+```
+make generate-player-features
+```
+
+## Generate hero-role edge features
+```
+make generate-hero-role-edge-features
+```
+
+## Generate player-hero edge features
+```
+make generate-player-hero-edge-features
+```
+
+
+### Embedding Generation Checklist
+
+- [x] Fetch pro-players data
+- [x] Fetch hero data
+- [x] Fetch role data
+- [ ] Fetch player-hero relations
+- [x] Fetch hero-role relations
+- [x] Embedding generation POC
+- [ ] Verify embeddings
+- [ ] Experiment with different PCA
