@@ -6,7 +6,8 @@ EMBEDDING GENERATION:
   Metapath2Vec: https://www.youtube.com/watch?v=GtPoGehuKYY
   https://github.com/AntonioLonga/PytorchGeometricTutorial/blob/main/Tutorial13/Tutorial13.ipynb
 
-
+Metapath2Vec: https://github.com/pyg-team/pytorch_geometric/blob/master/examples/hetero/metapath2vec.py
+https://modelzoo.co/model/pytorch_geometric
 ----
 CONSTANTS:
 

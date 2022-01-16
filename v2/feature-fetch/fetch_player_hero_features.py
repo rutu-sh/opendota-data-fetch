@@ -23,7 +23,7 @@ def get_max_retries() -> int:
 
 
 def get_backoff_duration() -> int:
-    return 15
+    return 5
 
 
 def get_default_response() -> requests.Response:
@@ -42,7 +42,7 @@ def request_with_retries(method: str, url: str, req_kwargs: dict, accepted_statu
         response = requests.request(url=url, method=method, **req_kwargs)
         if response.status_code in accepted_status_codes:
             break
-        logging.info(f"Retrying after {backoff} seconds")
+        logging.info(f"Retrying after {backoff} seconds. url={url}")
         time.sleep(backoff)
     return response
 
@@ -118,7 +118,8 @@ def get_player_hero_data(account_id: str) -> List[dict]:
     logging.info(f"Fetching data for player: {account_id}")
     player_heroes = []
     heroes_played_with = get_heroes_played_with(account_id=account_id)
-    for hero in heroes_played_with:
+    for i, hero in enumerate(heroes_played_with):
+        print(i)
         player_hero_data = {
             "account_id": account_id, 
             "hero_id": hero["hero_id"],
@@ -133,6 +134,8 @@ def get_player_hero_data(account_id: str) -> List[dict]:
 
         player_hero_data.update(totals_data)
         player_heroes.append(player_hero_data)
+        time.sleep(2)
+
     return player_heroes
 
 
@@ -165,14 +168,17 @@ def get_heroes(heroes_json_path: str) -> List[dict]:
 
 
 def fetch_player_hero_edge_features(players: List[dict]) -> List[dict]:
+    logging.info("Fetching player-hero edge features")
     edge_features = []
-    for player in players:
+    for i, player in enumerate(players):
         try:
             player_hero_data = get_player_hero_data(account_id=player["account_id"])
             edge_features.extend(player_hero_data)
         except:
+            logging.info("Ignoring exception")
             pass
         time.sleep(2)
+    logging.info("Fetched player-hero edge features")
     return edge_features
 
 

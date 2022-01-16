@@ -57,6 +57,40 @@ def get_counts_exp_dict() -> dict:
         'lane_role_wins': "$.lane_role.\'{}\'.win"
     }
 
+class HTTPMethods:
+    get = "GET"
+    post = "POST"
+    patch = "PATCH"
+
+
+def get_max_retries() -> int:
+    return 10
+
+
+def get_backoff_duration() -> int:
+    return 5
+
+
+def get_default_response() -> requests.Response:
+    response = requests.Response()
+    response.code = "default response"
+    response.error_type = "default response error type"
+    response.status_code = 500
+    response._content = b'{ "message" : "this is the default response" }'
+    return response
+
+def request_with_retries(method: str, url: str, req_kwargs: dict, accepted_status_codes: List[str]) -> requests.Response:
+    response = get_default_response()
+    backoff = get_backoff_duration()
+    max_retries = get_max_retries()
+    for i in range(max_retries):
+        response = requests.request(url=url, method=method, **req_kwargs)
+        if response.status_code in accepted_status_codes:
+            break
+        logging.info(f"Retrying after {backoff} seconds")
+        time.sleep(backoff)
+    return response
+
 def parse_dict(exp: str, data: dict) -> list:
     jsonpath_exp = parse(exp)
     return [match.value for match in jsonpath_exp.find(data)]
@@ -69,7 +103,8 @@ def parse_data(exp: str, data: dict, default: any = 0):
 
 def get_pro_players(limit: int = 10) -> List[dict]:
     logging.info("Fetching player data")
-    response = requests.get(get_pro_players_url())
+    url = get_pro_players_url()
+    response = request_with_retries(method=HTTPMethods.get, url=url, req_kwargs={}, accepted_status_codes=[200])
     logging.info("Fetched player data")
     if limit == -1:
         return response.json()
@@ -85,7 +120,7 @@ def get_player_ids(players: List[dict]) -> List[str]:
 def get_profile_data(account_id: str) -> dict:
     logging.info(f"Fetching profile data for account_id: {account_id}")
     url = get_player_profile_url(account_id=account_id)
-    response = requests.get(url)
+    response = request_with_retries(method=HTTPMethods.get, url=url, req_kwargs={}, accepted_status_codes=[200])
     response.raise_for_status()
     profile_data = response.json()
     return {
@@ -99,6 +134,7 @@ def get_profile_data(account_id: str) -> dict:
 def get_counts(account_id: str) -> dict:
     url = get_counts_url(account_id=account_id)
     response = requests.get(url)
+    response = request_with_retries(method=HTTPMethods.get, url=url, req_kwargs={}, accepted_status_codes=[200])
     response.raise_for_status()
     counts_data = response.json()
 
@@ -132,6 +168,7 @@ def get_avg(data: dict) -> float:
 def get_averages(account_id: str) -> dict:
     url = get_totals_url(account_id=account_id)
     response = requests.get(url)
+    response = request_with_retries(method=HTTPMethods.get, url=url, req_kwargs={}, accepted_status_codes=[200])
     response.raise_for_status()
     totals_data = response.json()
 
@@ -195,6 +232,7 @@ def get_pro_players_data(n_players: int = -1):
             pro_players_data.append(player_data)
             time.sleep(2) # prevent too many calls in a min
         except:
+            logging.info("Ignoring exception")
             continue
     logging.info("Fetched pro players data")
     return pro_players_data

@@ -10,7 +10,6 @@ from jsonpath_ng.ext import parse
 import logging
 from requests.api import request
 
-from requests.models import Response
 logging.basicConfig()
 logging.root.setLevel(logging.INFO)
 logging.basicConfig(level=logging.INFO)
