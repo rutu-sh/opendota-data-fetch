@@ -35,7 +35,7 @@ fetch-player-data:
 
 fetch-player-hero-data:
 	@echo "\nFetching player-hero data"
-	python3 ${SOURCE_DIR}/${VERSION}/feature-fetch/fetch_player_hero_features.py  --heroes-json-path ${HERO_JSON_PATH} --players-json-path ${PLAYER_JSON_PATH} --output-path ${PLAYER_HERO_JSON_PATH} --n-players 1
+	python3 ${SOURCE_DIR}/${VERSION}/feature-fetch/fetch_player_hero_features.py  --heroes-json-path ${HERO_JSON_PATH} --players-json-path ${PLAYER_JSON_PATH} --output-path ${PLAYER_HERO_JSON_PATH} --n-players ${N_PLAYERS}
 	@echo "\nFetched player-hero data"
 
 fetch-hero-metadata:
