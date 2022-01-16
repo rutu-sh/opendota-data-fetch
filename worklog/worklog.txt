@@ -138,8 +138,8 @@ game_mode = 1
 
 
 PLAYER-HERO: everything for particular hero
-[win_with/against, games_with/against, games, win]: https://api.opendota.com/api/players/88470/heroes
-[avg_kills/assists/deaths/kda]: https://api.opendota.com/api/players/88470/totals?significant=1&hero_id=69
+[win_with/against, games_with/against, games, win]: https://api.opendota.com/api/players/88470/heroes?significant=1&game_mode=1
+[avg_kills/assists/deaths/kda]: https://api.opendota.com/api/players/88470/totals?significant=1&game_mode=1&hero_id=69
 
 
 
