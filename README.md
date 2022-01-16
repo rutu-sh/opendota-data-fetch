@@ -89,6 +89,14 @@ make generate-player-hero-edge-features
 - [ ] Generate embeddings with Teams and Leagues as nodes in the Graph
 - [ ] Compare embeddings in presence/absence of nodes/node_features
 
+
 # Research Paper Checklist
 
-- [ ] TBD
+- [ ] Kal dekhenge
+- [ ] Make repo public
+
+
+# Ideas
+
+- [ ] Can be used to compare playing-style of Teams ? 
+- [ ] Try out with heterogeneous versions of GraphSAGE, GAT etc ? 
