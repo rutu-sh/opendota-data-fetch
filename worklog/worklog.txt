@@ -1,3 +1,13 @@
+EMBEDDING GENERATION:
+  PyTorchGeometric Heterogeneous: https://pytorch-geometric.readthedocs.io/en/latest/notes/heterogeneous.html
+  Generating Graph embedding:
+    https://towardsdatascience.com/pytorch-geometric-graph-embedding-da71d614c3a
+    https://gist.github.com/anuradhawick/904e7f2d2101f4b76516d04046007426
+  Metapath2Vec: https://www.youtube.com/watch?v=GtPoGehuKYY
+  https://github.com/AntonioLonga/PytorchGeometricTutorial/blob/main/Tutorial13/Tutorial13.ipynb
+
+
+----
 CONSTANTS:
 
 [
