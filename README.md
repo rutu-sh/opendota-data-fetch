@@ -73,7 +73,7 @@ make generate-player-hero-edge-features
 ```
 
 
-### Embedding Generation Checklist
+# Embedding Generation Checklist
 
 - [x] Fetch pro-players data
 - [x] Fetch hero data
