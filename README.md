@@ -84,3 +84,11 @@ make generate-player-hero-edge-features
 - [ ] Verify embeddings
 - [ ] Experiment with different PCA
 - [ ] Experiment with different metapaths
+- [ ] Normalize all features (StandardScaler)
+- [ ] Isolate and visualize embeddings for each type of node (player,hero,role)
+- [ ] Generate embeddings with Teams and Leagues as nodes in the Graph
+- [ ] Compare embeddings in presence/absence of nodes/node_features
+
+# Research Paper Checklist
+
+- [ ] TBD
