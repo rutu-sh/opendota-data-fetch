@@ -83,3 +83,4 @@ make generate-player-hero-edge-features
 - [x] Embedding generation POC
 - [ ] Verify embeddings
 - [ ] Experiment with different PCA
+- [ ] Experiment with different metapaths
