@@ -9,11 +9,6 @@ HERO_METADATA_JSON_PATH=${SOURCE_DIR}/data/heroes/hero_metadata.json
 HERO_ROLE_JSON_PATH=${SOURCE_DIR}/data/heroes/hero_role_data.json
 
 
-setup:
-	@echo ${SOURCE_DIR}
-	@echo installing requirements
-	pip3 install -r ${SOURCE_DIR}/requirements.txt
-
 create-dirs:
 	@echo "\ncreating required directories"
 	mkdir -p ${SOURCE_DIR}/data
@@ -21,6 +16,12 @@ create-dirs:
 	mkdir -p ${SOURCE_DIR}/data/players
 	mkdir -p ${SOURCE_DIR}/data/player_hero
 	@echo "\nCreated required directories"
+
+setup:
+	@echo ${SOURCE_DIR}
+	@echo installing requirements
+	pip3 install -r ${SOURCE_DIR}/requirements.txt
+	$(MAKE) create-dirs
 
 fetch-hero-data:
 	@echo "\nFetching hero stats"
@@ -34,7 +35,7 @@ fetch-player-data:
 
 fetch-player-hero-data:
 	@echo "\nFetching player-hero data"
-	python3 ${SOURCE_DIR}/${VERSION}/feature-fetch/fetch_player_hero_features.py  --heroes-json-path ${HERO_JSON_PATH} --players-json-path ${PLAYER_JSON_PATH} --output-path ${PLAYER_HERO_JSON_PATH} --n-players 10
+	python3 ${SOURCE_DIR}/${VERSION}/feature-fetch/fetch_player_hero_features.py  --heroes-json-path ${HERO_JSON_PATH} --players-json-path ${PLAYER_JSON_PATH} --output-path ${PLAYER_HERO_JSON_PATH} --n-players 1
 	@echo "\nFetched player-hero data"
 
 fetch-hero-metadata:
