@@ -1,7 +1,7 @@
 SOURCE_DIR=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 VERSION=v2
 
-N_PLAYERS=10
+N_PLAYERS=-1
 
 FEATURE_FETCH=${SOURCE_DIR}/${VERSION}/feature-fetch
 FEATURE_GEN=${SOURCE_DIR}/${VERSION}/feature-gen
