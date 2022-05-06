@@ -115,3 +115,12 @@ generate-all-features:
 	$(MAKE) generate-player-hero-edge-features
 
 	@echo "\nGenerated all-features data"
+
+do-everything:
+	@echo "\nDo everything"
+
+	$(MAKE) setup
+	$(MAKE) fetch-all-data 
+	$(MAKE) generate-all-features
+	
+	@echo "\nDone"
