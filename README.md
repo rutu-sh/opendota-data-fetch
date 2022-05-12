@@ -72,6 +72,10 @@ make generate-hero-role-edge-features
 make generate-player-hero-edge-features
 ```
 
+# TODO
+- [ ] V3 of APIs with partial-fetch
+- [ ] Generate embeddings for all nodes
+
 
 # Embedding Generation Checklist
 
