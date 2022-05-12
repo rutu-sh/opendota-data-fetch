@@ -6,6 +6,7 @@ import logging
 
 import requests
 
+from opendota import url_handler
 
 logging.basicConfig()
 logging.root.setLevel(logging.INFO)
@@ -21,19 +22,16 @@ def get_required_keys() -> List[str]:
         ]
     return required_keys
 
+
 def process_hero(res) -> List[dict]:
     h = {k: res[k] for k in get_required_keys()}
     h['hero_idx'] = h['hero_id'] - 1
     return h
 
-def get_hero_stats_url():
-    hero_stats_url = "https://api.opendota.com/api/heroStats"
-    return hero_stats_url
-
 
 def fetch_hero_data() -> List[dict]:
     logging.info("Sending get request")
-    response = requests.get(get_hero_stats_url())
+    response = requests.get(url_handler.get_hero_stats_url())
 
     hero_data = response.json()
     filtered_data = []
@@ -64,3 +62,4 @@ if __name__ == "__main__":
         json.dump(hero_data, f, indent=4)
         f.close()
     logging.info("Done")
+
